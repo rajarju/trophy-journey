@@ -1,0 +1,870 @@
+{
+  "slug": "jedi-fallen-order",
+  "title": "Star Wars Jedi: Fallen Order",
+  "platform": "PS4/PS5",
+  "coverImage": "https://media.rawg.io/media/games/559/559bc0768f656ad0c63c54b80a82d680.jpg",
+  "metadata": {
+    "estimatedTime": "30-40 hours",
+    "difficulty": "3/10",
+    "playthroughsRequired": 1,
+    "missableTrophies": 0,
+    "onlineRequired": false
+  },
+  "journeyIntro": {
+    "overview": "Taking place shortly after Episode III, you play as Cal Kestis, a surviving Padawan who must rebuild the Jedi Order while evading the Empire. The trophy list combines story progression, collectibles, and combat challenges with no difficulty-related trophies.",
+    "recommendedApproach": "Play through the story naturally while exploring each planet thoroughly. After completing the story, use free-roam to clean up remaining collectibles and combat trophies. Plant seeds early so they grow during your playthrough.",
+    "warnings": [
+      "No missable trophies - free-roam available after story completion",
+      "Some players report bugs with bounty hunter spawns affecting Data Collector and Scum and Villainy trophies",
+      "Plant terrarium seeds early as they take real-time to grow",
+      "The Collector trophy may be bugged for some players - certain collectibles may not register"
+    ]
+  },
+  "trophies": [
+    {
+      "id": "platinum-001",
+      "name": "A New Hope",
+      "description": "Unlock all trophies",
+      "type": "platinum",
+      "isMissable": false,
+      "guide": "Obtain all other trophies to unlock the platinum. DLC trophies are not required.",
+      "checklist": null
+    },
+    {
+      "id": "gold-001",
+      "name": "Collector",
+      "description": "Collect all chests and secrets",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Find every chest and secret across all planets. Total: 107 chests and 32 secrets (8 stim canisters + 24 life/force upgrades).",
+      "walkthrough": "Use the holomap to track your progress - press the touchpad to see exploration percentages for each area. Leave most collectibles until post-game since many areas require abilities not yet unlocked during the story.\n\nNote: This trophy is potentially bugged for some players where certain collectibles may not register. If stuck at 99%, try revisiting each area systematically.",
+      "checklist": [
+        {
+          "id": "collect-bogano",
+          "label": "Bogano - 100% Chests & Secrets",
+          "location": "Bogano",
+          "notes": "First planet, requires return visits with new abilities"
+        },
+        {
+          "id": "collect-zeffo",
+          "label": "Zeffo - 100% Chests & Secrets",
+          "location": "Zeffo",
+          "notes": "Largest planet with multiple tombs"
+        },
+        {
+          "id": "collect-kashyyyk",
+          "label": "Kashyyyk - 100% Chests & Secrets",
+          "location": "Kashyyyk",
+          "notes": "Imperial Refinery and Origin Tree areas"
+        },
+        {
+          "id": "collect-dathomir",
+          "label": "Dathomir - 100% Chests & Secrets",
+          "location": "Dathomir",
+          "notes": "Can be accessed early but some areas locked"
+        },
+        {
+          "id": "collect-ilum",
+          "label": "Ilum - 100% Chests & Secrets",
+          "location": "Ilum",
+          "notes": "Smallest planet, late-game access"
+        }
+      ]
+    },
+    {
+      "id": "gold-002",
+      "name": "Feel the Force",
+      "description": "Unlock all Jedi skills",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Purchase all 33 skills from the skill tree. You need 50 skill points total.",
+      "walkthrough": "XP comes from:\n• Defeating enemies (primary source - harder enemies give more)\n• Force Echoes (decent boost)\n• Environmental scans (small amount)\n\nThis should complete naturally during cleanup. If still short after story, revisit planets and reset enemies at meditation points to farm XP.",
+      "checklist": null
+    },
+    {
+      "id": "gold-003",
+      "name": "Trust Only In The Force",
+      "description": "Complete the story",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after the final cutscene when you complete the main campaign.",
+      "checklist": null
+    },
+    {
+      "id": "silver-001",
+      "name": "Legendary Beasts",
+      "description": "Defeat four mysterious creatures",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Defeat all four legendary beasts scattered across the planets. These are stronger variants of normal enemies that don't respawn and automatically scan upon encounter.",
+      "walkthrough": "These mini-bosses have the same attack patterns as regular enemies but deal much more damage. They don't respawn once defeated. Recommended to tackle post-game when you have more skills and stim canisters.",
+      "checklist": [
+        {
+          "id": "beast-oggdo",
+          "label": "Oggdo Bogdo",
+          "location": "Bogano - Bogdo Sinkholes",
+          "notes": "Giant frog creature",
+          "walkthrough": "From the Bogdo Sinkholes meditation point, drop down into the lower area. Oggdo Bogdo is in a large open space. Watch for its tongue attack and unblockable bite. Parry its standard attacks and punish during recovery frames."
+        },
+        {
+          "id": "beast-jotaz",
+          "label": "Rabid Jotaz",
+          "location": "Zeffo - Broken Wing",
+          "notes": "Large beast in crashed ship area",
+          "walkthrough": "Located inside the crashed Venator ship area. From the Crash Site, climb the grid near the Jotaz, go up instead of left. The Rabid Jotaz is in a confined space - use Force Slow to create openings for attacks."
+        },
+        {
+          "id": "beast-wyyyschokk",
+          "label": "Albino Wyyyschokk",
+          "location": "Kashyyyk - Imperial Refinery",
+          "notes": "White spider creature",
+          "walkthrough": "In the Imperial Refinery area, look for the large white spider in the darker tunnels. It can web you from range - dodge sideways. When it rears up, get ready to dodge its lunge attack."
+        },
+        {
+          "id": "beast-nydak",
+          "label": "Nydak Alpha",
+          "location": "Dathomir - Strangled Cliffs",
+          "notes": "Large predator",
+          "walkthrough": "Found in the Strangled Cliffs area of Dathomir. This is an aggressive enemy that charges frequently. Keep your distance and use Force abilities to create openings. Watch for the unblockable grab attack."
+        }
+      ]
+    },
+    {
+      "id": "silver-002",
+      "name": "A Galaxy Far, Far Away",
+      "description": "Complete all of BD-1's holomaps",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Achieve 100% exploration on all planets. Press the touchpad to check your exploration percentage for each area.",
+      "walkthrough": "Open the holomap with the touchpad. The top-left shows the planet percentage, and you can hover over sub-areas for specific percentages. This completes naturally during the collectible cleanup phase.",
+      "checklist": [
+        {
+          "id": "map-bogano",
+          "label": "Bogano - 100% Explored",
+          "location": "Bogano",
+          "notes": null
+        },
+        {
+          "id": "map-zeffo",
+          "label": "Zeffo - 100% Explored",
+          "location": "Zeffo",
+          "notes": null
+        },
+        {
+          "id": "map-kashyyyk",
+          "label": "Kashyyyk - 100% Explored",
+          "location": "Kashyyyk",
+          "notes": null
+        },
+        {
+          "id": "map-dathomir",
+          "label": "Dathomir - 100% Explored",
+          "location": "Dathomir",
+          "notes": null
+        },
+        {
+          "id": "map-ilum",
+          "label": "Ilum - 100% Explored",
+          "location": "Ilum",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "silver-003",
+      "name": "Her Name Was Masana Tide",
+      "description": "Defeat the Ninth Sister",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Story-related trophy. You'll fight the Ninth Sister boss during your second visit to Kashyyyk at the Origin Tree.",
+      "checklist": null
+    },
+    {
+      "id": "silver-004",
+      "name": "Gorgara Falls",
+      "description": "Defeat the winged terror on Dathomir",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Story-related trophy. Gorgara is a giant bat boss on Dathomir. It flees initially but is defeated through a cinematic sequence later in the story.",
+      "checklist": null
+    },
+    {
+      "id": "silver-005",
+      "name": "I Knew He Was No Good",
+      "description": "Defeat a former Jedi Master",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Story-related trophy. You'll encounter this boss in the Tomb of Kujet on Dathomir.",
+      "checklist": null
+    },
+    {
+      "id": "silver-006",
+      "name": "Can't Touch This",
+      "description": "Precision Evade 100 attacks",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Dodge with Circle at the last moment before an attack lands to trigger Precision Evade, which slows enemies and refills your Force bar.",
+      "prerequisites": [
+        "Double Jump (Kashyyyk story)",
+        "Precision Evade skill (Survivor tree, 2 points)"
+      ],
+      "walkthrough": "The Precision Evade skill unlocks during your second visit to Kashyyyk. When you dodge with Circle at the perfect moment (just before being hit), time slows and your Force bar refills.\n\nLook for the slow-motion effect to confirm you're doing it correctly. If enemies just attack normally after your dodge, your timing was off.",
+      "farmingTip": "Scout Troopers with electrified batons have easily telegraphed lunge attacks. Find one near a meditation point, trigger precision evades, and reset if needed.",
+      "checklist": null
+    },
+    {
+      "id": "silver-007",
+      "name": "Medical Droid",
+      "description": "Find all of BD-1's stim canisters",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Find all 8 stim canister upgrades scattered across the planets. These increase your healing capacity.",
+      "checklist": [
+        {
+          "id": "stim-1",
+          "label": "Stim Canister #1",
+          "location": "Bogano - Landing Pad",
+          "notes": "Requires Force Push",
+          "walkthrough": "From the landing pad, look for a cage containing a sphere. Use Force Push (R2) to move the sphere onto a pressure switch. This opens a secret area containing the golden chest with the stim canister."
+        },
+        {
+          "id": "stim-2",
+          "label": "Stim Canister #2",
+          "location": "Bogano - Subterranean Refuge",
+          "notes": "Requires Force Pull",
+          "walkthrough": "From the Subterranean Refuge meditation point, look for a stone platform you can pull down with Force Pull (L2). Climb onto it to reach a higher platform with the golden chest."
+        },
+        {
+          "id": "stim-3",
+          "label": "Stim Canister #3",
+          "location": "Zeffo - Derelict Hangar",
+          "notes": "Waterfall cave area",
+          "walkthrough": "In the Derelict Hangar area, find the waterfall cave. Continue past the Force Echo location - the golden health container is at the end of this path."
+        },
+        {
+          "id": "stim-4",
+          "label": "Stim Canister #4",
+          "location": "Zeffo - Ice Caves",
+          "notes": "On return from Tomb of Miktrull",
+          "walkthrough": "When returning from the Tomb of Miktrull, look for yellow ropes. Swing into a wind vent and use the zipline going upward to reach a platform with this upgrade."
+        },
+        {
+          "id": "stim-5",
+          "label": "Stim Canister #5",
+          "location": "Zeffo - Venator Wreckage",
+          "notes": "Near elevator to Imperial Dig Site",
+          "walkthrough": "This one is practically unmissable on the exit route from the Venator Wreckage. Located near the elevator leading to the Imperial Dig Site."
+        },
+        {
+          "id": "stim-6",
+          "label": "Stim Canister #6",
+          "location": "Zeffo - Imperial Dig Site",
+          "notes": "Requires timed zipline drop and Force Push",
+          "walkthrough": "In the Imperial Dig Site, time a drop from a zipline and use Force Push on a cracked wall to access this collectible on an isolated structure."
+        },
+        {
+          "id": "stim-7",
+          "label": "Stim Canister #7",
+          "location": "Kashyyyk - Origin Tree",
+          "notes": "Upper areas",
+          "walkthrough": "Located in the upper areas of the Origin Tree during your second visit to Kashyyyk. Explore thoroughly after the Ninth Sister boss fight."
+        },
+        {
+          "id": "stim-8",
+          "label": "Stim Canister #8",
+          "location": "Dathomir - Witches Horn",
+          "notes": "Late-game area",
+          "walkthrough": "Found in the Witches Horn area of Dathomir. This area becomes fully accessible later in the story."
+        }
+      ]
+    },
+    {
+      "id": "silver-008",
+      "name": "Green Thumb",
+      "description": "Have a fully grown terrarium",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Collect and plant all 10 seeds, then wait for them to grow. After all seeds are grown, interact with the terrarium using R3 to pop the trophy.",
+      "walkthrough": "IMPORTANT: Plant seeds as early as possible - they take real-time to grow while you play. If you wait until post-game, you may have to idle for a long time.\n\nSeeds are found as glowing plants on the ground. BD-1 will chirp when near one. After collecting, plant them immediately in the terrarium on the Mantis.\n\nOnce all 10 seeds are planted AND fully grown, press R3 while looking at the terrarium to trigger the trophy.",
+      "checklist": [
+        {
+          "id": "seed-1",
+          "label": "Featherfern",
+          "location": "Bogano - Fractured Plain",
+          "notes": "Requires Double Jump",
+          "walkthrough": "In the Fractured Plain area, look for a broken metal bridge. Use Double Jump to cross it. The seed is on the ground where you land."
+        },
+        {
+          "id": "seed-2",
+          "label": "Kalpi",
+          "location": "Bogano - Subterranean Refuge",
+          "notes": "Kill Bog Rat first",
+          "walkthrough": "In the flooded area of Subterranean Refuge, kill the Bog Rat enemy. The seed spawns where it died - use the scan function (press Down) to locate it."
+        },
+        {
+          "id": "seed-3",
+          "label": "Royal Fluzz",
+          "location": "Zeffo - Weathered Monument",
+          "notes": "Past Heavy Assault Trooper",
+          "walkthrough": "After defeating the Heavy Assault Stormtrooper near the Weathered Monument, climb the rope and walk down the steep hill on the left side. The seed is at the bottom."
+        },
+        {
+          "id": "seed-4",
+          "label": "Gillypod",
+          "location": "Zeffo - Windswept Ruins",
+          "notes": "Near Tomb of Eilram stairs",
+          "walkthrough": "Look for a wind vent platform in front of a higher platform, near the stairs leading to the Tomb of Eilram entrance."
+        },
+        {
+          "id": "seed-5",
+          "label": "Dreamwort",
+          "location": "Zeffo - Crash Site",
+          "notes": "Large central island with Jotaz",
+          "walkthrough": "Located at the back of the large central water island in the Crash Site area. This is where you encounter Jotaz and Scazz enemies."
+        },
+        {
+          "id": "seed-6",
+          "label": "Mushling",
+          "location": "Dathomir - Swamp of Sacrifice",
+          "notes": "Near hanging sack pods",
+          "walkthrough": "In the Swamp of Sacrifice, look for the area with hanging sack pods where Undead Nightsisters spawn. The seed is near these pods."
+        },
+        {
+          "id": "seed-7",
+          "label": "Bleeding Gut",
+          "location": "Dathomir - Swamp of Sacrifice",
+          "notes": "Left after sliding down",
+          "walkthrough": "After sliding down the slope into the Swamp of Sacrifice area, go left immediately. The seed is at the end of this short path."
+        },
+        {
+          "id": "seed-8",
+          "label": "Milk Grass",
+          "location": "Dathomir - Gloomroot Hollow",
+          "notes": "Left ledge at fork",
+          "walkthrough": "In Gloomroot Hollow, when you reach a fork in the path, take the left ledge. The seed is at the end of this path."
+        },
+        {
+          "id": "seed-9",
+          "label": "Mushbloom",
+          "location": "Kashyyyk - Origin Lake",
+          "notes": null,
+          "walkthrough": "Located in the Origin Lake area of Kashyyyk. Explore the shoreline thoroughly."
+        },
+        {
+          "id": "seed-10",
+          "label": "Bonshyyyr",
+          "location": "Kashyyyk - Gloomroot Hollow",
+          "notes": null,
+          "walkthrough": "Found during exploration of Kashyyyk. Check the forest floor in the Gloomroot Hollow area."
+        }
+      ]
+    },
+    {
+      "id": "silver-009",
+      "name": "Data Collector",
+      "description": "Scan all enemy types",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Scan all 45 enemy types using BD-1. Press Down on the d-pad to scan defeated enemies. Mysterious creatures scan automatically.",
+      "walkthrough": "After defeating any new enemy type, press Down on the d-pad to have BD-1 scan them. Do this for EVERY new enemy you encounter.\n\nNote: Legendary beasts and some special enemies scan automatically upon encounter.\n\nKnown Bug: There's a bug where bounty hunters may not spawn for some players, making this trophy difficult to complete.",
+      "checklist": null
+    },
+    {
+      "id": "silver-010",
+      "name": "Scum and Villainy",
+      "description": "Defeat each type of bounty hunter",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Defeat all 3 types of Haxion Brood bounty hunters. They have boss health bars when encountered.",
+      "walkthrough": "After a story arena event featuring a bounty droid, the Haxion Brood bounty hunters will start appearing randomly as you explore.\n\nKnown Bug: Bounty hunters have RNG spawning - some players report they stop appearing entirely. If stuck, try revisiting Kashyyyk's Imperial Refinery where they've been confirmed to spawn.",
+      "checklist": [
+        {
+          "id": "bounty-hunter",
+          "label": "Haxion Brood Bounty Hunter",
+          "location": "Story arena + random encounters",
+          "notes": "Basic bounty hunter",
+          "walkthrough": "The basic human bounty hunter. First encountered during the story arena battle. Will also appear randomly during exploration."
+        },
+        {
+          "id": "bounty-commando",
+          "label": "Haxion Brood Commando",
+          "location": "Random encounters",
+          "notes": "Tougher variant",
+          "walkthrough": "A tougher variant of the bounty hunter with more aggressive attacks. Spawns randomly during exploration after the arena event."
+        },
+        {
+          "id": "bounty-droid",
+          "label": "Haxion Brood Bounty Droid",
+          "location": "Random encounters",
+          "notes": "Droid enemy type",
+          "walkthrough": "A bounty droid that first appears in the story arena. Additional ones spawn randomly. They use ranged attacks and can be challenging."
+        }
+      ]
+    },
+    {
+      "id": "silver-011",
+      "name": "Blade Master",
+      "description": "Hit a single enemy with all lightsaber types",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Hit one enemy with all three lightsaber forms in succession.",
+      "prerequisites": [
+        "All three lightsaber types (Single, Dual, Split - obtained on Ilum)"
+      ],
+      "walkthrough": "You need to hit ONE enemy with all three lightsaber forms:\n1. Square = Single blade\n2. Triangle (hold) = Dual blade (staff)\n3. L1 + Square = Split saber (dual wield)\n\nFind a strong enemy that can survive multiple hits (like a Purge Trooper or beast). Hit them with each form before killing them.",
+      "checklist": [
+        {
+          "id": "blade-single",
+          "label": "Hit with Single Blade",
+          "location": "Any",
+          "notes": "Default stance - Square"
+        },
+        {
+          "id": "blade-dual",
+          "label": "Hit with Dual Blade",
+          "location": "Any",
+          "notes": "Staff mode - Hold Triangle"
+        },
+        {
+          "id": "blade-split",
+          "label": "Hit with Split Saber",
+          "location": "Any",
+          "notes": "Dual wield - L1 + Square (unlocks on Ilum)"
+        }
+      ]
+    },
+    {
+      "id": "bronze-001",
+      "name": "The Mantis",
+      "description": "Join the crew",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks at the end of the prologue after the Second Sister fight. You can't win this fight - just survive.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-002",
+      "name": "A Long Time Ago",
+      "description": "Discover the Bogano Vault",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Scan the stone circle in the Ancient Vault on Bogano with BD-1.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-003",
+      "name": "The Obstacle is the Way",
+      "description": "Complete the Tomb of Eilram",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Complete the tomb puzzle on Zeffo after learning Force Push. Trophy pops on the lift ride back up.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-004",
+      "name": "Everything is Connected",
+      "description": "Complete the Tomb of Miktrull",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Complete the second tomb on Zeffo with the lantern sphere puzzle. Trophy pops when exiting the column.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-005",
+      "name": "The Holocron Awaits",
+      "description": "Open the Vault",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Place the Astrium in the stone circle on Bogano to open the vault.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-006",
+      "name": "Happy Go Wookiee",
+      "description": "Free the Wookiees from Imperial imprisonment",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after a large fight involving Stormtroopers and an AT-ST on Kashyyyk.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-007",
+      "name": "Visiting Alderaan Places",
+      "description": "Explore the crashed Venator",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find and fully explore the Venator Wreckage on Zeffo. Best done post-game.",
+      "walkthrough": "Location: Zeffo's Crash Site (optional area)\n\nHow to Access:\n1. Enter the Crash Site area\n2. Climb the grid near the large circular structure where you encounter the Jotaz\n3. Go UP instead of left\n4. Slide down the ice slope\n\nExplore the entire crashed ship area - there are chests and a stim canister inside. The trophy pops when you've fully explored and exit the area.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-008",
+      "name": "For A More Civilized Age",
+      "description": "Craft a lightsaber of your own",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after the crystal puzzle on Ilum when you select your lightsaber color.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-009",
+      "name": "Back At You",
+      "description": "Defeat 50 enemies with reflected blaster bolts",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Tap L1 just before a blaster bolt hits you to reflect it back. Don't hold L1 (that's block).",
+      "walkthrough": "Timing is key: TAP L1 just before a blaster bolt hits you. If you hold L1, you'll block instead of reflect.\n\nReflected bolts kill Stormtroopers in one hit, making this straightforward once you get the timing down.",
+      "farmingTip": "Kashyyyk's Imperial Refinery near the meditation point has 5 Stormtroopers in the open. Reflect their shots, rest at the meditation point to respawn them, repeat.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-010",
+      "name": "Perfect Timing",
+      "description": "Parry 100 attacks",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Tap L1 as enemies attack to parry. This staggers enemies for counter-attacks rather than just blocking.",
+      "walkthrough": "TAP L1 during an enemy attack (not holding). A successful parry staggers the enemy and often opens them for a counter-attack.\n\nThis will come naturally through normal gameplay - you don't need to farm it.",
+      "farmingTip": "Prologue Scout Troopers with electrified batons can be parried repeatedly. They have telegraphed attacks that are easy to read.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-011",
+      "name": "Kickoff",
+      "description": "Defeat an enemy using only kicks",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Defeat a single enemy using only the Evasive Kick attack.",
+      "prerequisites": [
+        "Evasive Kick skill (Lightsaber tree)"
+      ],
+      "walkthrough": "How to Kick: Press Circle to evade, then immediately press Square for a kick.\n\nFind a solitary Stormtrooper (very weak enemy). Get close so it uses melee attacks instead of shooting. Make sure it has full health, then kick it twice to defeat it.\n\nDon't use any lightsaber attacks - only kicks!",
+      "checklist": null
+    },
+    {
+      "id": "bronze-012",
+      "name": "Triple Take",
+      "description": "Defeat 3 enemies using a single lightsaber throw",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use Lightsaber Throw to kill 3 enemies with one throw.",
+      "prerequisites": [
+        "Force Pull (from Tomb of Miktrull)",
+        "Lightsaber Throw skill (Force tree, 3 points)"
+      ],
+      "walkthrough": "Hold L1 + press Triangle to throw and recall your lightsaber. The throw hits enemies on the way out AND back.\n\nYou need 3 weak enemies grouped together. Splox (small creatures) on Bogano are perfect - they die in one hit.",
+      "farmingTip": "Go to Bogano's Binog Mesa amphitheater area. Three Splox spawn together there. Group them up and throw your saber. If needed, reset at the nearby meditation point.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-013",
+      "name": "What Goes Around…",
+      "description": "Defeat an enemy with their own blaster bolt",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use Force Slow and Force Pull to make an enemy kill themselves with their own blaster bolt.",
+      "prerequisites": [
+        "Force Pull ability (Tomb of Miktrull)",
+        "Grasping Pull skill (Force tree, 1 point)"
+      ],
+      "walkthrough": "Step by step:\n1. Find a lone Stormtrooper\n2. Keep your distance so they shoot at you\n3. When they fire, tap R1 to use Force Slow on the bolt (it freezes mid-air)\n4. Hold L2 to Force Pull the Stormtrooper INTO their own frozen bolt\n5. The bolt kills them\n\nImportant: Deflecting the bolt with L1 does NOT count - you must pull the enemy into their own bolt.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-014",
+      "name": "Big Bang",
+      "description": "Defeat 20 enemies with explosives",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use Force Push to redirect rockets and grenades back at enemies.",
+      "prerequisites": [
+        "Force Push (story ability from Zeffo)"
+      ],
+      "walkthrough": "Two methods:\n\n1. Rocket Launcher Troopers:\n   - Wait for the red glow indicating they're about to fire\n   - Tap R1 to Force Slow the rocket\n   - Tap R2 to Force Push it back at them\n\n2. Stormtrooper Commanders:\n   - They throw blue-glowing grenades at distance\n   - Press R2 to Force Push grenades back before they explode",
+      "farmingTip": "After defeating the Ninth Sister on Kashyyyk, there's a hut after a zipline with 3 Rocket Launcher Troopers. Use the rocket redirect method, then reset at the meditation point.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-015",
+      "name": "Don't Mess With BD-1",
+      "description": "Defeat an enemy with a hacked droid",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Hack an Imperial Probe Droid and let it kill an enemy for you.",
+      "prerequisites": [
+        "Droid-hacking ability (obtained at workbench after Tomb of Miktrull)"
+      ],
+      "walkthrough": "Step by step:\n1. Find an Imperial Probe Droid (floating droid)\n2. Force Pull it with L2\n3. While holding it, press Down on the d-pad\n4. BD-1 will hack it and it becomes friendly\n5. The droid will shoot at nearby enemies\n6. Weaken a Stormtrooper to low health, then let the hacked droid finish them off\n\nLocation: Right after gaining this ability, there's a probe droid and Stormtroopers nearby.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-016",
+      "name": "Look Out Below",
+      "description": "Send 25 enemies over the edge",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use Force Push to knock enemies off ledges or into pits.",
+      "prerequisites": [
+        "Force Push (story ability from Zeffo)"
+      ],
+      "walkthrough": "Press R2 to Force Push enemies. When near edges, cliffs, or pits, push enemies off for an instant kill regardless of their health.",
+      "farmingTip": "Kashyyyk's Imperial Refinery has 5 Stormtroopers near a cliff edge at the meditation point. Push them all off, rest to respawn enemies, repeat. Takes about 5 cycles.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-017",
+      "name": "Not So Fast",
+      "description": "Defeat 25 enemies under the effect of Empowered Slow",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use the fully charged Empowered Slow, then kill enemies while they're affected.",
+      "prerequisites": [
+        "Empowered Slow skill (Force tree, 1 point - unlocks after Bogano Vault discovery)"
+      ],
+      "walkthrough": "IMPORTANT: You must use the FULL Empowered Slow, not regular Slow.\n\nHow to do it:\n1. Hold R1 until Cal charges up and releases a pulse (controller vibrates)\n2. Cal will spread his arms when fully charged\n3. If you release too early, it's just regular Slow and doesn't count\n4. Attack with Square while enemies are slowed\n\nNote: Hitting an enemy breaks the slow effect, so weaken enemies first, then use Empowered Slow + finishing blow.",
+      "farmingTip": "Regular Stormtroopers work best. Damage them to one-hit-remaining health, then Empowered Slow + Square attack to finish.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-018",
+      "name": "Bank Shot",
+      "description": "Defeat an enemy by colliding them with another enemy",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Push or pull one enemy into another to kill either one.",
+      "prerequisites": [
+        "Force Push"
+      ],
+      "walkthrough": "Method 1 (Push): Position two enemies close together, then Force Push (R2) one into the other.\n\nMethod 2 (Pull - easier): Once you have Force Pull, grab a Stormtrooper with L2, aim at another enemy, and press R2 to throw them as a projectile.",
+      "farmingTip": "Zeffo's Imperial Headquarters has a room with a meditation point. Inside, an Astromech Droid lines up perfectly with nearby Stormtroopers. Push the droid immediately for an easy kill.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-019",
+      "name": "Cal Got Your Tongue?",
+      "description": "Slice an Oggdo's tongue",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use Force Pull on an Oggdo's tongue and slash it with your lightsaber.",
+      "prerequisites": [
+        "Force Pull (Tomb of Miktrull)",
+        "Grasping Pull skill (Force tree, 1 point)"
+      ],
+      "walkthrough": "Step by step:\n1. Find an Oggdo (frog-like creature)\n2. Lock onto it\n3. Hold L2 to Force Pull its tongue (it extends toward you)\n4. Quickly press Square to slash the tongue\n\nYou don't have to wait for it to attack - you can pull its tongue anytime.",
+      "farmingTip": "Bogano's Subterranean Refuge has an Oggdo directly below the meditation point. It respawns when you rest, making it perfect for this trophy.",
+      "checklist": null
+    },
+    {
+      "id": "bronze-020",
+      "name": "Full House",
+      "description": "Recruit all possible crew members",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Recruit all 5 crew members to the Mantis. Most join through story, but one requires finding.",
+      "walkthrough": "Four crew members join automatically through the story. The fifth is a Bogling creature that you must find:\n\nBogling Location:\n1. Go to Bogano's landing platform\n2. Go down the circular stairs below the platform\n3. Look for a weak rock wall on the LEFT side (near the sphere puzzle room)\n4. Use Force Push (R2) to break the wall\n5. The Bogling inside will join your crew",
+      "checklist": [
+        {
+          "id": "crew-cere",
+          "label": "Cere",
+          "location": "Story",
+          "notes": "Joins automatically at start"
+        },
+        {
+          "id": "crew-greez",
+          "label": "Greez",
+          "location": "Story",
+          "notes": "Joins automatically at start"
+        },
+        {
+          "id": "crew-bd1",
+          "label": "BD-1",
+          "location": "Bogano - Story",
+          "notes": "Joins during first Bogano visit"
+        },
+        {
+          "id": "crew-nightsister",
+          "label": "Nightsister Merrin",
+          "location": "Dathomir - Story",
+          "notes": "Joins late in the story"
+        },
+        {
+          "id": "crew-bogling",
+          "label": "Bogling",
+          "location": "Bogano - Landing Pad",
+          "notes": "Hidden - requires Force Push",
+          "walkthrough": "Below the landing platform on Bogano, go down the circular stairs. Look for a weak rock wall on the left side near the sphere puzzle cage. Force Push the wall to break it and free the Bogling, who will join your crew."
+        }
+      ]
+    },
+    {
+      "id": "bronze-021",
+      "name": "Data Disk",
+      "description": "Find all of Cordova's encrypted logs",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find all 19 encrypted logs. Only entries in the 'Cordova's Journey' section count.",
+      "walkthrough": "The Databank has multiple sections, but only 'Cordova's Journey' entries count for this trophy. There are 6 Archives with multiple entries each.\n\nMany are found during story progression. Others require exploration:\n\n• Archive 1, Discovery 1: Bogdo Sinkholes - sphere attached to hut ceiling (need ledge access)\n• Archive 1, Discovery 2: Hermit's Abode - inside hut, next to lightsaber workbench (behind slow-able fan)\n• Archive 2, Discovery 1: Tomb of Miktrull - candle location\n• Archive 5, Astrium 1: Origin Tree - bird feather area (second visit)\n• Archive 6, Vision 1: Hermit's Abode - scan metal heap after cutting cables\n• Archive 6, Vision 2: Abandoned Workshop - scan stone figures by door",
+      "checklist": null
+    },
+    {
+      "id": "bronze-022",
+      "name": "Sabersmith",
+      "description": "Fully customize your lightsaber",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Change your lightsaber appearance in all 5 categories at a workbench.",
+      "walkthrough": "Access any lightsaber workbench (found on planets or on the Mantis). Change from the default in ALL five categories:\n\n1. Color - any new color\n2. Emitter - any new emitter\n3. Switch - any new switch design  \n4. Sleeve - any new sleeve\n5. Material - any new material\n\nDeluxe Edition cosmetics count toward this.",
+      "checklist": [
+        {
+          "id": "saber-color",
+          "label": "Change Lightsaber Color",
+          "location": "Any Workbench",
+          "notes": "Blue/Green available early"
+        },
+        {
+          "id": "saber-emitter",
+          "label": "Change Emitter",
+          "location": "Any Workbench",
+          "notes": null
+        },
+        {
+          "id": "saber-switch",
+          "label": "Change Switch",
+          "location": "Any Workbench",
+          "notes": null
+        },
+        {
+          "id": "saber-sleeve",
+          "label": "Change Sleeve",
+          "location": "Any Workbench",
+          "notes": null
+        },
+        {
+          "id": "saber-material",
+          "label": "Change Material",
+          "location": "Any Workbench",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "bronze-023",
+      "name": "The Full Glow-Up",
+      "description": "Customize the look of Cal, BD-1, and the Mantis",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Change appearances for Cal (outfit AND poncho), BD-1, and the Mantis ship.",
+      "walkthrough": "Press Options + R1 to open the customization menu. You need to change:\n\n1. Cal's Outfit (not just poncho!)\n2. Cal's Poncho (separate from outfit)\n3. BD-1's paint job\n4. Mantis ship appearance\n\nFind new cosmetics in chests throughout the game.\n\nNote: Pre-order items may cause issues - if trophy doesn't pop, cycle through different customizations.",
+      "checklist": [
+        {
+          "id": "custom-cal-outfit",
+          "label": "Change Cal's Outfit",
+          "location": "Customization Menu (Options + R1)",
+          "notes": "Must find outfits in chests first"
+        },
+        {
+          "id": "custom-cal-poncho",
+          "label": "Change Cal's Poncho",
+          "location": "Customization Menu (Options + R1)",
+          "notes": "BOTH outfit AND poncho required"
+        },
+        {
+          "id": "custom-bd1",
+          "label": "Change BD-1 Paint Job",
+          "location": "Customization Menu (Options + R1)",
+          "notes": null
+        },
+        {
+          "id": "custom-mantis",
+          "label": "Change Mantis Paint Job",
+          "location": "Customization Menu (Options + R1)",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "bronze-024",
+      "name": "Kicking Back",
+      "description": "Kick a Phillak that has kicked you",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Get kicked by a Phillak, then kick it back using Evasive Kick.",
+      "prerequisites": [
+        "Evasive Kick skill (Lightsaber tree)"
+      ],
+      "walkthrough": "Phillaks are goat-like creatures found on Zeffo.\n\nStep by step:\n1. Find a Phillak\n2. Let it charge at you (attack glows red - unblockable)\n3. Dodge-roll so it hits a wall and becomes stunned\n4. Stand directly BEHIND the stunned Phillak\n5. It will kick backwards at you\n6. Get hit by the kick\n7. Now wait for its headbutt attack\n8. Evade the headbutt\n9. Use Evasive Kick (Circle then Square) to kick it back",
+      "checklist": null
+    },
+    {
+      "id": "bronze-025",
+      "name": "Echo Location",
+      "description": "Discover 75 Force Echoes",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find and interact with 75 Force Echoes throughout the game. There are more than 75 available.",
+      "walkthrough": "Force Echoes are glowing objects that Cal can sense. Interact with them to get story/lore information.\n\nThere are well over 75 Force Echoes in the game, so you don't need to find them all. This should complete naturally during your collectible cleanup.",
+      "checklist": null
+    }
+  ],
+  "suggestedOrder": [
+    {
+      "phase": "First Playthrough",
+      "description": "Focus on the story while exploring each planet. Plant seeds immediately when found. Scan every enemy you encounter.",
+      "trophyIds": [
+        "gold-003",
+        "silver-003",
+        "silver-004",
+        "silver-005",
+        "bronze-001",
+        "bronze-002",
+        "bronze-003",
+        "bronze-004",
+        "bronze-005",
+        "bronze-006",
+        "bronze-008"
+      ]
+    },
+    {
+      "phase": "Combat Trophies",
+      "description": "Work on combat-related trophies as you gain abilities. Many can be farmed at specific locations.",
+      "trophyIds": [
+        "silver-006",
+        "bronze-009",
+        "bronze-010",
+        "bronze-011",
+        "bronze-012",
+        "bronze-013",
+        "bronze-014",
+        "bronze-015",
+        "bronze-016",
+        "bronze-017",
+        "bronze-018",
+        "bronze-019",
+        "bronze-024"
+      ]
+    },
+    {
+      "phase": "Cleanup",
+      "description": "After story completion, use free-roam to finish collectibles, exploration, and remaining trophies.",
+      "trophyIds": [
+        "gold-001",
+        "gold-002",
+        "silver-001",
+        "silver-002",
+        "silver-007",
+        "silver-008",
+        "silver-009",
+        "silver-010",
+        "silver-011",
+        "bronze-007",
+        "bronze-020",
+        "bronze-021",
+        "bronze-022",
+        "bronze-023",
+        "bronze-025"
+      ]
+    }
+  ],
+  "rawgId": 257201,
+  "rawgSlug": "jedi-the-fallen-order"
+}

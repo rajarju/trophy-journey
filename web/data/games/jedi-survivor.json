@@ -1,0 +1,435 @@
+{
+  "slug": "jedi-survivor",
+  "title": "Star Wars Jedi: Survivor",
+  "platform": "PS5",
+  "coverImage": "https://media.rawg.io/media/games/3e4/3e43e29ae126ef951842393f5ff7f33a.jpg",
+  "metadata": {
+    "estimatedTime": "40-50 hours",
+    "difficulty": "3/10",
+    "playthroughsRequired": 1,
+    "missableTrophies": 0,
+    "onlineRequired": false
+  },
+  "journeyIntro": {
+    "overview": "Jedi: Survivor is a collectible-heavy game with a vast open world to explore. The good news is that nothing is missable - you can return to any area after completing the story to clean up remaining collectibles and challenges.",
+    "recommendedApproach": "Play through the story naturally, enjoying the exploration and combat. Don't stress about finding everything on your first visit to each area. After completing the main campaign, use the holomap to systematically clean up each region.",
+    "warnings": [
+      "No missable trophies - everything can be obtained after story completion",
+      "Some areas and abilities unlock only through story progression",
+      "The Caij bounty hunter questline requires defeating multiple bosses - start this early"
+    ]
+  },
+  "trophies": [
+    {
+      "id": "platinum-001",
+      "name": "A New Star Wars Story",
+      "description": "Collect all trophies",
+      "type": "platinum",
+      "isMissable": false,
+      "guide": "Obtain all other trophies to unlock the platinum. With no missables and reasonable difficulty, this is an enjoyable platinum for Star Wars fans.",
+      "checklist": null
+    },
+    {
+      "id": "gold-001",
+      "name": "The Jedi Path",
+      "description": "Complete the main story",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Simply complete the main story campaign. This will unlock naturally as you progress.",
+      "checklist": [
+        {
+          "id": "story-coruscant",
+          "label": "Complete Coruscant",
+          "location": "Coruscant",
+          "notes": "Opening mission"
+        },
+        {
+          "id": "story-koboh-1",
+          "label": "Reach Koboh and meet Greez",
+          "location": "Koboh",
+          "notes": "Main hub area"
+        },
+        {
+          "id": "story-jedha-1",
+          "label": "Travel to Jedha",
+          "location": "Jedha",
+          "notes": "Desert planet"
+        },
+        {
+          "id": "story-koboh-2",
+          "label": "Return to Koboh - Discover the Observatory",
+          "location": "Koboh",
+          "notes": null
+        },
+        {
+          "id": "story-finale",
+          "label": "Complete the final mission",
+          "location": "Tanalorr",
+          "notes": "Final story mission"
+        }
+      ]
+    },
+    {
+      "id": "gold-002",
+      "name": "Caij Match",
+      "description": "Defeat all of Caij's bounties",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Caij is a bounty hunter found in Pyloon's Saloon on Koboh. She gives you targets to hunt throughout the game. These are tough mini-bosses scattered across all planets.",
+      "checklist": [
+        {
+          "id": "bounty-kili-oso",
+          "label": "Kili Oso",
+          "location": "Koboh - Rambler's Reach",
+          "notes": "First bounty, relatively easy"
+        },
+        {
+          "id": "bounty-masi-finau",
+          "label": "Masi Finau",
+          "location": "Koboh - Southern Reach",
+          "notes": null
+        },
+        {
+          "id": "bounty-fenn-finau",
+          "label": "Fenn Finau",
+          "location": "Koboh - Devastated Settlement",
+          "notes": "Masi's sibling"
+        },
+        {
+          "id": "bounty-vaslyn-martz",
+          "label": "Vaslyn Martz",
+          "location": "Jedha - Pilgrim's Path",
+          "notes": null
+        },
+        {
+          "id": "bounty-selfin-jansen",
+          "label": "Selfin Jansen",
+          "location": "Koboh - Viscid Bog",
+          "notes": "Uses heavy weapons"
+        },
+        {
+          "id": "bounty-caij",
+          "label": "Defeat Caij herself",
+          "location": "Koboh - Pyloon's Saloon",
+          "notes": "Final fight after all bounties"
+        }
+      ]
+    },
+    {
+      "id": "silver-001",
+      "name": "Full House",
+      "description": "Recruit all possible allies to Pyloon's Saloon",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Throughout your journey, you'll encounter NPCs who can be recruited to the Saloon. Most are found through exploration or side quests.",
+      "checklist": [
+        {
+          "id": "recruit-greez",
+          "label": "Greez",
+          "location": "Story-related",
+          "notes": "Automatic"
+        },
+        {
+          "id": "recruit-turgle",
+          "label": "Turgle",
+          "location": "Koboh - Pyloon's Saloon basement",
+          "notes": "Find him hiding downstairs"
+        },
+        {
+          "id": "recruit-mosey",
+          "label": "Mosey",
+          "location": "Koboh - Rambler's Reach",
+          "notes": "The bartender"
+        },
+        {
+          "id": "recruit-caij",
+          "label": "Caij",
+          "location": "Complete bounty questline",
+          "notes": "Becomes ally after defeating her"
+        },
+        {
+          "id": "recruit-skoova",
+          "label": "Skoova Stev",
+          "location": "Koboh - Various fishing spots",
+          "notes": "Find him fishing, give him fish"
+        },
+        {
+          "id": "recruit-pili",
+          "label": "Pili",
+          "location": "Jedha - Monastery",
+          "notes": "Help with her garden"
+        },
+        {
+          "id": "recruit-toa",
+          "label": "T-1N8 (Toa)",
+          "location": "Koboh - Derelict Dam",
+          "notes": "Repair the droid"
+        }
+      ]
+    },
+    {
+      "id": "silver-002",
+      "name": "Stim Star",
+      "description": "Find all stim canister upgrades",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Stim canisters increase your healing capacity. They're found in special chests throughout the game. BD-1 will beep when near one.",
+      "checklist": [
+        {
+          "id": "stim-koboh-1",
+          "label": "Stim #1",
+          "location": "Koboh - Gorge Crash Site",
+          "notes": "Early in the game"
+        },
+        {
+          "id": "stim-koboh-2",
+          "label": "Stim #2",
+          "location": "Koboh - Smuggler's Tunnels",
+          "notes": "Requires Force Push"
+        },
+        {
+          "id": "stim-koboh-3",
+          "label": "Stim #3",
+          "location": "Koboh - Chamber of Duality",
+          "notes": "Puzzle chamber"
+        },
+        {
+          "id": "stim-jedha-1",
+          "label": "Stim #4",
+          "location": "Jedha - Crypt of Uhrma",
+          "notes": "Hidden path"
+        },
+        {
+          "id": "stim-jedha-2",
+          "label": "Stim #5",
+          "location": "Jedha - Desert Wastes",
+          "notes": "Near crashed ship"
+        },
+        {
+          "id": "stim-shattered-moon",
+          "label": "Stim #6",
+          "location": "Shattered Moon - Repository Entrance",
+          "notes": "After gaining access"
+        }
+      ]
+    },
+    {
+      "id": "silver-003",
+      "name": "Galaxy's Best Gardener",
+      "description": "Fully grow the rooftop garden",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Collect seeds from various planets and plant them in Pili's rooftop garden at the Saloon. Seeds are found in specific locations or dropped by certain enemies.",
+      "checklist": [
+        {
+          "id": "seed-1",
+          "label": "Koboh Wildflower Seed",
+          "location": "Koboh - Rambler's Reach",
+          "notes": null
+        },
+        {
+          "id": "seed-2",
+          "label": "Fire Lilly Seed",
+          "location": "Koboh - Viscid Bog",
+          "notes": "Near the tar pits"
+        },
+        {
+          "id": "seed-3",
+          "label": "Jedha Cactus Seed",
+          "location": "Jedha - Pilgrim's Sanctuary",
+          "notes": null
+        },
+        {
+          "id": "seed-4",
+          "label": "Moon Blossom Seed",
+          "location": "Shattered Moon",
+          "notes": "In the facility"
+        },
+        {
+          "id": "seed-5",
+          "label": "Bluebell Seed",
+          "location": "Koboh - Forest Array",
+          "notes": null
+        },
+        {
+          "id": "seed-6",
+          "label": "Golden Mushroom Seed",
+          "location": "Koboh - Basalt Rift",
+          "notes": "Dropped by enemies"
+        }
+      ]
+    },
+    {
+      "id": "bronze-001",
+      "name": "Master of the Force",
+      "description": "Unlock all Force abilities",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Force abilities unlock through story progression. Most are required to complete the game.",
+      "checklist": [
+        {
+          "id": "force-push",
+          "label": "Force Push",
+          "location": "Coruscant",
+          "notes": "Starting ability"
+        },
+        {
+          "id": "force-pull",
+          "label": "Force Pull",
+          "location": "Koboh - Early story",
+          "notes": "Unlocks during training"
+        },
+        {
+          "id": "force-slow",
+          "label": "Force Slow",
+          "location": "Story progression",
+          "notes": "Returning ability from Fallen Order"
+        },
+        {
+          "id": "force-confusion",
+          "label": "Force Confusion",
+          "location": "Koboh - Mid story",
+          "notes": "Turn enemies against each other"
+        },
+        {
+          "id": "force-lift-slam",
+          "label": "Force Lift & Slam",
+          "location": "Late story",
+          "notes": "Powerful combat ability"
+        }
+      ]
+    },
+    {
+      "id": "bronze-002",
+      "name": "Blade Master",
+      "description": "Unlock all lightsaber stances",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Lightsaber stances unlock as you progress through the story and discover new fighting styles.",
+      "checklist": [
+        {
+          "id": "stance-single",
+          "label": "Single Blade",
+          "location": "Starting stance",
+          "notes": "Default balanced stance"
+        },
+        {
+          "id": "stance-double",
+          "label": "Double-Bladed",
+          "location": "Starting stance",
+          "notes": "Good for crowds"
+        },
+        {
+          "id": "stance-dual",
+          "label": "Dual Wield",
+          "location": "Koboh - Early story",
+          "notes": "Fast aggressive style"
+        },
+        {
+          "id": "stance-crossguard",
+          "label": "Crossguard",
+          "location": "Jedha - Story mission",
+          "notes": "Slow but powerful"
+        },
+        {
+          "id": "stance-blaster",
+          "label": "Blaster",
+          "location": "Jedha - Story mission",
+          "notes": "Hybrid ranged/melee"
+        }
+      ]
+    },
+    {
+      "id": "bronze-003",
+      "name": "Explorer",
+      "description": "Discover all regions on Koboh",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Koboh is the largest planet with many regions to discover. Use the holomap to track your exploration progress.",
+      "checklist": [
+        {
+          "id": "region-rambler",
+          "label": "Rambler's Reach",
+          "location": "Central hub area",
+          "notes": "Contains the Saloon"
+        },
+        {
+          "id": "region-gorge",
+          "label": "Gorge Crash Site",
+          "location": "Starting area",
+          "notes": null
+        },
+        {
+          "id": "region-dam",
+          "label": "Derelict Dam",
+          "location": "Eastern Koboh",
+          "notes": null
+        },
+        {
+          "id": "region-forest",
+          "label": "Forest Array",
+          "location": "Northern Koboh",
+          "notes": "High Republic era tech"
+        },
+        {
+          "id": "region-viscid",
+          "label": "Viscid Bog",
+          "location": "Southern swamp area",
+          "notes": "Dangerous enemies"
+        },
+        {
+          "id": "region-basalt",
+          "label": "Basalt Rift",
+          "location": "Underground caves",
+          "notes": "Requires story progress"
+        },
+        {
+          "id": "region-observatory",
+          "label": "Observatory Understructure",
+          "location": "Beneath the observatory",
+          "notes": "Late game area"
+        }
+      ]
+    },
+    {
+      "id": "bronze-004",
+      "name": "Treasure Hunter",
+      "description": "Open 50 chests",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Chests are scattered throughout all planets. They contain cosmetic items for Cal, BD-1, and the lightsaber. You'll likely get this naturally during your platinum run.",
+      "checklist": null
+    }
+  ],
+  "suggestedOrder": [
+    {
+      "phase": "First Playthrough",
+      "description": "Focus on the story and explore naturally. Don't worry about finding everything.",
+      "trophyIds": [
+        "gold-001",
+        "bronze-001",
+        "bronze-002"
+      ]
+    },
+    {
+      "phase": "Side Content",
+      "description": "After story completion, tackle side quests and bounties.",
+      "trophyIds": [
+        "gold-002",
+        "silver-001"
+      ]
+    },
+    {
+      "phase": "Cleanup",
+      "description": "Use the holomap to systematically clear each region of collectibles.",
+      "trophyIds": [
+        "silver-002",
+        "silver-003",
+        "bronze-003",
+        "bronze-004"
+      ]
+    }
+  ],
+  "rawgId": 793647,
+  "rawgSlug": "star-wars-jedi-survivor"
+}
