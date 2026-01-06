@@ -7,427 +7,648 @@
     "estimatedTime": "40-50 hours",
     "difficulty": "3/10",
     "playthroughsRequired": 1,
-    "missableTrophies": 0,
+    "missableTrophies": 1,
     "onlineRequired": false
   },
   "journeyIntro": {
-    "overview": "Jedi: Survivor is a collectible-heavy game with a vast open world to explore. The good news is that nothing is missable - you can return to any area after completing the story to clean up remaining collectibles and challenges.",
-    "recommendedApproach": "Play through the story naturally, enjoying the exploration and combat. Don't stress about finding everything on your first visit to each area. After completing the main campaign, use the holomap to systematically clean up each region.",
+    "overview": "Jedi: Survivor is a massive collectible-heavy action adventure with 54 trophies. Cal returns with new Force powers, five lightsaber stances, and a sprawling open world across multiple planets. The game can be completed on Story Mode difficulty making it accessible to all players.",
+    "recommendedApproach": "Play through the story naturally while using companion abilities regularly (missable trophy!). After story completion, use the holomap to systematically clear each region. Start bounty hunting and Holotactics early.",
     "warnings": [
-      "No missable trophies - everything can be obtained after story completion",
-      "Some areas and abilities unlock only through story progression",
-      "The Caij bounty hunter questline requires defeating multiple bosses - start this early"
+      "ONE MISSABLE TROPHY: 'You've Got a Friend' - Use companion assist 10 times with Bode (Chapters 1 & 4 only) AND 10 times with Merrin (Chapter 3+)",
+      "Two potentially glitchy trophies: 'Perk of the Job' and 'They're Probably Fine' may require multiple attempts",
+      "No manual saves - only autosave available",
+      "Start bounty hunting early as Caij's questline takes time"
     ]
   },
   "trophies": [
     {
       "id": "platinum-001",
-      "name": "A New Star Wars Story",
-      "description": "Collect all trophies",
+      "name": "The Jedi Survivor",
+      "description": "Unlock all Trophies",
       "type": "platinum",
       "isMissable": false,
-      "guide": "Obtain all other trophies to unlock the platinum. With no missables and reasonable difficulty, this is an enjoyable platinum for Star Wars fans.",
-      "checklist": null
+      "guide": "Earn all other trophies to unlock the Platinum. With only one missable trophy and reasonable difficulty (completable on Story Mode), this is an enjoyable platinum for Star Wars fans.",
+      "walkthrough": "Focus on the missable 'You've Got a Friend' trophy during your playthrough. Everything else can be cleaned up after completing the story."
     },
     {
       "id": "gold-001",
-      "name": "The Jedi Path",
-      "description": "Complete the main story",
+      "name": "A Place You Could Call Home",
+      "description": "Complete the story",
       "type": "gold",
       "isMissable": false,
-      "guide": "Simply complete the main story campaign. This will unlock naturally as you progress.",
+      "guide": "Complete the main story campaign. Unlocks automatically after the credits roll.",
+      "walkthrough": "Simply progress through all story missions. The game will guide you through Coruscant, Koboh, Jedha, Shattered Moon, Nova Garon, and finally Tanalorr.",
       "checklist": [
-        {
-          "id": "story-coruscant",
-          "label": "Complete Coruscant",
-          "location": "Coruscant",
-          "notes": "Opening mission"
-        },
-        {
-          "id": "story-koboh-1",
-          "label": "Reach Koboh and meet Greez",
-          "location": "Koboh",
-          "notes": "Main hub area"
-        },
-        {
-          "id": "story-jedha-1",
-          "label": "Travel to Jedha",
-          "location": "Jedha",
-          "notes": "Desert planet"
-        },
-        {
-          "id": "story-koboh-2",
-          "label": "Return to Koboh - Discover the Observatory",
-          "location": "Koboh",
-          "notes": null
-        },
-        {
-          "id": "story-finale",
-          "label": "Complete the final mission",
-          "location": "Tanalorr",
-          "notes": "Final story mission"
-        }
+        { "id": "story-1", "label": "Complete Coruscant (Opening)", "location": "Coruscant", "notes": "Prologue mission" },
+        { "id": "story-2", "label": "Reach Koboh and meet Greez", "location": "Koboh", "notes": "Main hub area" },
+        { "id": "story-3", "label": "Complete Forest Array", "location": "Koboh", "notes": "Release Dagan Gera" },
+        { "id": "story-4", "label": "Travel to Jedha", "location": "Jedha", "notes": "Meet Merrin" },
+        { "id": "story-5", "label": "Complete Shattered Moon", "location": "Shattered Moon", "notes": "Chapter 4" },
+        { "id": "story-6", "label": "Survive Nova Garon", "location": "Nova Garon", "notes": "Chapter 6" },
+        { "id": "story-7", "label": "Reach Tanalorr", "location": "Tanalorr", "notes": "Final mission" }
       ]
     },
     {
       "id": "gold-002",
-      "name": "Caij Match",
-      "description": "Defeat all of Caij's bounties",
+      "name": "Blood, Sweat, and Tears",
+      "description": "Complete all Force Tears",
       "type": "gold",
       "isMissable": false,
-      "guide": "Caij is a bounty hunter found in Pyloon's Saloon on Koboh. She gives you targets to hunt throughout the game. These are tough mini-bosses scattered across all planets.",
+      "guide": "Find and complete all Force Tear challenges throughout the game. These are combat/platforming challenges accessed through rifts in the Force.",
+      "walkthrough": "Force Tears are scattered across all planets. Each contains a specific challenge - combat trials, platforming sequences, or puzzle solving. Use the holomap to track undiscovered tears.",
       "checklist": [
-        {
-          "id": "bounty-kili-oso",
-          "label": "Kili Oso",
-          "location": "Koboh - Rambler's Reach",
-          "notes": "First bounty, relatively easy"
-        },
-        {
-          "id": "bounty-masi-finau",
-          "label": "Masi Finau",
-          "location": "Koboh - Southern Reach",
-          "notes": null
-        },
-        {
-          "id": "bounty-fenn-finau",
-          "label": "Fenn Finau",
-          "location": "Koboh - Devastated Settlement",
-          "notes": "Masi's sibling"
-        },
-        {
-          "id": "bounty-vaslyn-martz",
-          "label": "Vaslyn Martz",
-          "location": "Jedha - Pilgrim's Path",
-          "notes": null
-        },
-        {
-          "id": "bounty-selfin-jansen",
-          "label": "Selfin Jansen",
-          "location": "Koboh - Viscid Bog",
-          "notes": "Uses heavy weapons"
-        },
-        {
-          "id": "bounty-caij",
-          "label": "Defeat Caij herself",
-          "location": "Koboh - Pyloon's Saloon",
-          "notes": "Final fight after all bounties"
-        }
+        { "id": "tear-1", "label": "Fractured Tradition", "location": "Koboh - Rambler's Reach", "notes": "Combat trial" },
+        { "id": "tear-2", "label": "Fractured Momentum", "location": "Koboh - Gorge Crash Site", "notes": "Platforming" },
+        { "id": "tear-3", "label": "Fractured Duality", "location": "Koboh - Chamber of Duality", "notes": "Combat trial" },
+        { "id": "tear-4", "label": "Fractured Determination", "location": "Jedha - Pilgrim's Path", "notes": "Survival" },
+        { "id": "tear-5", "label": "Fractured Agility", "location": "Koboh - Viscid Bog", "notes": "Platforming" },
+        { "id": "tear-6", "label": "Fractured Power", "location": "Koboh - Observatory", "notes": "Combat trial" },
+        { "id": "tear-7", "label": "Fractured Malice", "location": "Shattered Moon", "notes": "Boss rush" }
       ]
     },
     {
       "id": "silver-001",
-      "name": "Full House",
-      "description": "Recruit all possible allies to Pyloon's Saloon",
+      "name": "Caij Match",
+      "description": "Gain the attention of a mysterious stranger",
       "type": "silver",
       "isMissable": false,
-      "guide": "Throughout your journey, you'll encounter NPCs who can be recruited to the Saloon. Most are found through exploration or side quests.",
+      "guide": "Eliminate all 17 bounty enemies throughout the game to complete Caij's questline. She appears in Pyloon's Saloon after defeating your first bounty hunter.",
+      "walkthrough": "After Korej Lim attacks you in Chapter 3, visit Caij at the Saloon to start the bounty questline. Track targets using Caij's holotable. Each bounty is a challenging mini-boss fight.",
       "checklist": [
-        {
-          "id": "recruit-greez",
-          "label": "Greez",
-          "location": "Story-related",
-          "notes": "Automatic"
-        },
-        {
-          "id": "recruit-turgle",
-          "label": "Turgle",
-          "location": "Koboh - Pyloon's Saloon basement",
-          "notes": "Find him hiding downstairs"
-        },
-        {
-          "id": "recruit-mosey",
-          "label": "Mosey",
-          "location": "Koboh - Rambler's Reach",
-          "notes": "The bartender"
-        },
-        {
-          "id": "recruit-caij",
-          "label": "Caij",
-          "location": "Complete bounty questline",
-          "notes": "Becomes ally after defeating her"
-        },
-        {
-          "id": "recruit-skoova",
-          "label": "Skoova Stev",
-          "location": "Koboh - Various fishing spots",
-          "notes": "Find him fishing, give him fish"
-        },
-        {
-          "id": "recruit-pili",
-          "label": "Pili",
-          "location": "Jedha - Monastery",
-          "notes": "Help with her garden"
-        },
-        {
-          "id": "recruit-toa",
-          "label": "T-1N8 (Toa)",
-          "location": "Koboh - Derelict Dam",
-          "notes": "Repair the droid"
-        }
+        { "id": "bounty-1", "label": "Korej Lim", "location": "Story-related", "notes": "Automatic first bounty" },
+        { "id": "bounty-2", "label": "Kili Oso", "location": "Koboh - Rambler's Reach", "notes": "First optional bounty" },
+        { "id": "bounty-3", "label": "Masi Finau", "location": "Koboh - Southern Reach", "notes": null },
+        { "id": "bounty-4", "label": "Fenn Finau", "location": "Koboh - Devastated Settlement", "notes": "Masi's sibling" },
+        { "id": "bounty-5", "label": "Vaslyn Martz", "location": "Jedha - Pilgrim's Path", "notes": null },
+        { "id": "bounty-6", "label": "Selfin Jansen", "location": "Koboh - Viscid Bog", "notes": "Uses heavy weapons" },
+        { "id": "bounty-7", "label": "PR-85T", "location": "Koboh - Derelict Dam", "notes": "Droid bounty" },
+        { "id": "bounty-8", "label": "Yuhong", "location": "Jedha - Monastery Walls", "notes": null },
+        { "id": "bounty-9", "label": "Kip Ostar", "location": "Koboh - Basalt Rift", "notes": null },
+        { "id": "bounty-10", "label": "Gatt Mansen", "location": "Koboh - Fogged Expanse", "notes": null },
+        { "id": "bounty-11", "label": "Raz", "location": "Koboh - Untamed Downs", "notes": null },
+        { "id": "bounty-12", "label": "Corde the Half", "location": "Koboh - Fort Kah'lin", "notes": null },
+        { "id": "bounty-13", "label": "Gank Rig", "location": "Jedha - Crypt of Uhrma", "notes": null },
+        { "id": "bounty-14", "label": "Meyen Corr", "location": "Koboh - Observatory", "notes": null },
+        { "id": "bounty-15", "label": "Queuebee", "location": "Shattered Moon", "notes": null },
+        { "id": "bounty-16", "label": "Mash", "location": "Koboh - Foothill Falls", "notes": null },
+        { "id": "bounty-17", "label": "Caij (Final)", "location": "Koboh - Pyloon's Saloon", "notes": "Final fight after all bounties" }
       ]
     },
     {
       "id": "silver-002",
-      "name": "Stim Star",
-      "description": "Find all stim canister upgrades",
+      "name": "I'm a Living Legend",
+      "description": "Defeat all legendary adversaries",
       "type": "silver",
       "isMissable": false,
-      "guide": "Stim canisters increase your healing capacity. They're found in special chests throughout the game. BD-1 will beep when near one.",
+      "guide": "Find and defeat all legendary adversaries across planets. These are powerful unique bosses marked on the holomap once discovered.",
+      "walkthrough": "Legendary adversaries are optional boss encounters. They're much tougher than regular enemies but provide great rewards and XP.",
       "checklist": [
-        {
-          "id": "stim-koboh-1",
-          "label": "Stim #1",
-          "location": "Koboh - Gorge Crash Site",
-          "notes": "Early in the game"
-        },
-        {
-          "id": "stim-koboh-2",
-          "label": "Stim #2",
-          "location": "Koboh - Smuggler's Tunnels",
-          "notes": "Requires Force Push"
-        },
-        {
-          "id": "stim-koboh-3",
-          "label": "Stim #3",
-          "location": "Koboh - Chamber of Duality",
-          "notes": "Puzzle chamber"
-        },
-        {
-          "id": "stim-jedha-1",
-          "label": "Stim #4",
-          "location": "Jedha - Crypt of Uhrma",
-          "notes": "Hidden path"
-        },
-        {
-          "id": "stim-jedha-2",
-          "label": "Stim #5",
-          "location": "Jedha - Desert Wastes",
-          "notes": "Near crashed ship"
-        },
-        {
-          "id": "stim-shattered-moon",
-          "label": "Stim #6",
-          "location": "Shattered Moon - Repository Entrance",
-          "notes": "After gaining access"
-        }
+        { "id": "legend-1", "label": "Rancor", "location": "Koboh - Sodden Grotto", "notes": "Very tough early game" },
+        { "id": "legend-2", "label": "Spawn of Oggdo", "location": "Koboh - Fort Kah'lin", "notes": "Returns from Fallen Order" },
+        { "id": "legend-3", "label": "Sutaban Alpha", "location": "Koboh - Rambler's Reach", "notes": "Giant creature" },
+        { "id": "legend-4", "label": "Vile Bilemaw", "location": "Koboh - Viscid Bog", "notes": null },
+        { "id": "legend-5", "label": "Gorocco Matriarch", "location": "Koboh - Forest Array", "notes": null },
+        { "id": "legend-6", "label": "Urgost", "location": "Jedha - Crypt of Uhrma", "notes": "Legendary creature" },
+        { "id": "legend-7", "label": "Golden Skriton", "location": "Jedha - Desert Wastes", "notes": null },
+        { "id": "legend-8", "label": "Mogu", "location": "Koboh - Observatory Understructure", "notes": null },
+        { "id": "legend-9", "label": "D-L1T", "location": "Koboh - Automated Forge", "notes": "Droid boss" }
       ]
     },
     {
       "id": "silver-003",
-      "name": "Galaxy's Best Gardener",
-      "description": "Fully grow the rooftop garden",
+      "name": "Intergalactic Geographic",
+      "description": "Scan every type of enemy to fill out the Tactical Guide",
       "type": "silver",
       "isMissable": false,
-      "guide": "Collect seeds from various planets and plant them in Pili's rooftop garden at the Saloon. Seeds are found in specific locations or dropped by certain enemies.",
+      "guide": "Scan every type of enemy to complete the Tactical Guide. Press Down near defeated enemy bodies to scan them.",
+      "walkthrough": "Make scanning a habit - after every fight, scan fallen enemies. Some enemy types only appear in specific areas or story missions. Check your Tactical Guide regularly to see what you're missing."
+    },
+    {
+      "id": "silver-004",
+      "name": "Perk of the Job",
+      "description": "Equip Perks in all slots",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Find all perk slot upgrades and equip perks in every available slot. Note: This trophy has been reported as glitchy for some players.",
+      "walkthrough": "Perk slots are found in special chests and as rewards for completing challenges. You need to find all slot upgrades, then fill each slot with a perk from your inventory."
+    },
+    {
+      "id": "silver-005",
+      "name": "Star Tours",
+      "description": "Discover and complete all Jedi Chambers",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Locate and complete all Jedi Chamber puzzle challenges. These High Republic-era chambers contain platforming and Force puzzles.",
+      "walkthrough": "Jedi Chambers are marked on the holomap once discovered. Each contains a puzzle requiring specific Force abilities. Some chambers only become accessible after gaining certain powers.",
       "checklist": [
-        {
-          "id": "seed-1",
-          "label": "Koboh Wildflower Seed",
-          "location": "Koboh - Rambler's Reach",
-          "notes": null
-        },
-        {
-          "id": "seed-2",
-          "label": "Fire Lilly Seed",
-          "location": "Koboh - Viscid Bog",
-          "notes": "Near the tar pits"
-        },
-        {
-          "id": "seed-3",
-          "label": "Jedha Cactus Seed",
-          "location": "Jedha - Pilgrim's Sanctuary",
-          "notes": null
-        },
-        {
-          "id": "seed-4",
-          "label": "Moon Blossom Seed",
-          "location": "Shattered Moon",
-          "notes": "In the facility"
-        },
-        {
-          "id": "seed-5",
-          "label": "Bluebell Seed",
-          "location": "Koboh - Forest Array",
-          "notes": null
-        },
-        {
-          "id": "seed-6",
-          "label": "Golden Mushroom Seed",
-          "location": "Koboh - Basalt Rift",
-          "notes": "Dropped by enemies"
-        }
+        { "id": "chamber-1", "label": "Chamber of Clarity", "location": "Koboh", "notes": "Early access" },
+        { "id": "chamber-2", "label": "Chamber of Reason", "location": "Koboh", "notes": "Requires Force Pull" },
+        { "id": "chamber-3", "label": "Chamber of Duality", "location": "Koboh", "notes": "Twin orb puzzle" },
+        { "id": "chamber-4", "label": "Chamber of Connection", "location": "Koboh", "notes": "Requires late-game abilities" },
+        { "id": "chamber-5", "label": "Chamber of Detachment", "location": "Jedha", "notes": null }
+      ]
+    },
+    {
+      "id": "silver-006",
+      "name": "Gambler",
+      "description": "Win all holotactics matches",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Play and win all Holotactics matches at the Cantina. This is a strategy mini-game using scanned enemies as game pieces.",
+      "walkthrough": "Holotactics becomes available at Pyloon's Saloon. You need to recruit opponents by finding them in the world and completing their side content. Then defeat each opponent in order. Use your scanned enemies strategically.",
+      "checklist": [
+        { "id": "holo-1", "label": "Beat Turgle", "location": "Pyloon's Saloon", "notes": "First opponent" },
+        { "id": "holo-2", "label": "Beat Tulakt", "location": "Pyloon's Saloon", "notes": "Recruit first" },
+        { "id": "holo-3", "label": "Beat Bhima", "location": "Pyloon's Saloon", "notes": "Recruit first" },
+        { "id": "holo-4", "label": "Beat Merrin", "location": "Pyloon's Saloon", "notes": "Story character" },
+        { "id": "holo-5", "label": "Beat Greez", "location": "Pyloon's Saloon", "notes": "Final opponent" }
       ]
     },
     {
       "id": "bronze-001",
-      "name": "Master of the Force",
-      "description": "Unlock all Force abilities",
+      "name": "Rooftop Duel",
+      "description": "Defeat an Inquisitor",
       "type": "bronze",
       "isMissable": false,
-      "guide": "Force abilities unlock through story progression. Most are required to complete the game.",
-      "checklist": [
-        {
-          "id": "force-push",
-          "label": "Force Push",
-          "location": "Coruscant",
-          "notes": "Starting ability"
-        },
-        {
-          "id": "force-pull",
-          "label": "Force Pull",
-          "location": "Koboh - Early story",
-          "notes": "Unlocks during training"
-        },
-        {
-          "id": "force-slow",
-          "label": "Force Slow",
-          "location": "Story progression",
-          "notes": "Returning ability from Fallen Order"
-        },
-        {
-          "id": "force-confusion",
-          "label": "Force Confusion",
-          "location": "Koboh - Mid story",
-          "notes": "Turn enemies against each other"
-        },
-        {
-          "id": "force-lift-slam",
-          "label": "Force Lift & Slam",
-          "location": "Late story",
-          "notes": "Powerful combat ability"
-        }
-      ]
+      "guide": "Story-related trophy. Unlocks after defeating the Inquisitor boss on Coruscant during the opening mission."
     },
     {
       "id": "bronze-002",
-      "name": "Blade Master",
-      "description": "Unlock all lightsaber stances",
+      "name": "For Saw Gerrera",
+      "description": "Break free from the grasp of the Empire",
       "type": "bronze",
       "isMissable": false,
-      "guide": "Lightsaber stances unlock as you progress through the story and discover new fighting styles.",
-      "checklist": [
-        {
-          "id": "stance-single",
-          "label": "Single Blade",
-          "location": "Starting stance",
-          "notes": "Default balanced stance"
-        },
-        {
-          "id": "stance-double",
-          "label": "Double-Bladed",
-          "location": "Starting stance",
-          "notes": "Good for crowds"
-        },
-        {
-          "id": "stance-dual",
-          "label": "Dual Wield",
-          "location": "Koboh - Early story",
-          "notes": "Fast aggressive style"
-        },
-        {
-          "id": "stance-crossguard",
-          "label": "Crossguard",
-          "location": "Jedha - Story mission",
-          "notes": "Slow but powerful"
-        },
-        {
-          "id": "stance-blaster",
-          "label": "Blaster",
-          "location": "Jedha - Story mission",
-          "notes": "Hybrid ranged/melee"
-        }
-      ]
+      "guide": "Story-related trophy. Unlocks after leaving Coruscant at the end of the prologue."
     },
     {
       "id": "bronze-003",
-      "name": "Explorer",
-      "description": "Discover all regions on Koboh",
+      "name": "Grab Some Seat",
+      "description": "Chat with the owner of the Koboh cantina",
       "type": "bronze",
       "isMissable": false,
-      "guide": "Koboh is the largest planet with many regions to discover. Use the holomap to track your exploration progress.",
-      "checklist": [
-        {
-          "id": "region-rambler",
-          "label": "Rambler's Reach",
-          "location": "Central hub area",
-          "notes": "Contains the Saloon"
-        },
-        {
-          "id": "region-gorge",
-          "label": "Gorge Crash Site",
-          "location": "Starting area",
-          "notes": null
-        },
-        {
-          "id": "region-dam",
-          "label": "Derelict Dam",
-          "location": "Eastern Koboh",
-          "notes": null
-        },
-        {
-          "id": "region-forest",
-          "label": "Forest Array",
-          "location": "Northern Koboh",
-          "notes": "High Republic era tech"
-        },
-        {
-          "id": "region-viscid",
-          "label": "Viscid Bog",
-          "location": "Southern swamp area",
-          "notes": "Dangerous enemies"
-        },
-        {
-          "id": "region-basalt",
-          "label": "Basalt Rift",
-          "location": "Underground caves",
-          "notes": "Requires story progress"
-        },
-        {
-          "id": "region-observatory",
-          "label": "Observatory Understructure",
-          "location": "Beneath the observatory",
-          "notes": "Late game area"
-        }
-      ]
+      "guide": "Story-related trophy. Unlocks after the cutscene when you first arrive at Pyloon's Saloon and meet Greez."
     },
     {
       "id": "bronze-004",
-      "name": "Treasure Hunter",
-      "description": "Open 50 chests",
+      "name": "The Past Made Present",
+      "description": "Release the Jedi from the bacta tank",
       "type": "bronze",
       "isMissable": false,
-      "guide": "Chests are scattered throughout all planets. They contain cosmetic items for Cal, BD-1, and the lightsaber. You'll likely get this naturally during your platinum run.",
-      "checklist": null
+      "guide": "Story-related trophy. Unlocks after the boss battle at Forest Array when you release Dagan Gera from stasis."
+    },
+    {
+      "id": "bronze-005",
+      "name": "Survivors, We Adapt",
+      "description": "Travel together with a Nightsister",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after meeting and teaming up with Merrin on Jedha."
+    },
+    {
+      "id": "bronze-006",
+      "name": "Among the Masters",
+      "description": "Meet the Jedi Masters",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after finding the Jedi Archive and meeting the Masters within."
+    },
+    {
+      "id": "bronze-007",
+      "name": "For the Path",
+      "description": "Protect Pilgrim's Sanctuary",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after defeating the giant walker machine during the battle on Jedha."
+    },
+    {
+      "id": "bronze-008",
+      "name": "Out of Bedlam",
+      "description": "Rescue a friend from the Bedlam Raiders",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after rescuing your ally and defeating the Bedlam Raider boss."
+    },
+    {
+      "id": "bronze-009",
+      "name": "Tanalorr Bound",
+      "description": "Collect the Abyss Compass",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after reaching the Grand Oculus and obtaining the compass."
+    },
+    {
+      "id": "bronze-010",
+      "name": "Tragedy",
+      "description": "Defend the Archive",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks at the end of Chapter 5 after the Archive events."
+    },
+    {
+      "id": "bronze-011",
+      "name": "At the Precipice",
+      "description": "Survive Nova Garon",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing the Nova Garon mission and returning to the Mantis."
+    },
+    {
+      "id": "bronze-012",
+      "name": "Into the Abyss",
+      "description": "Discover the route to Tanalorr",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after the cutscene at the Control Centre revealing the path to Tanalorr."
+    },
+    {
+      "id": "bronze-013",
+      "name": "You've Got A Friend",
+      "description": "Direct your companions to assist in combat 10 times each",
+      "type": "bronze",
+      "isMissable": true,
+      "missableContext": "Bode is only available as a companion in Chapters 1 and 4. You must use his assist ability 10 times before losing access to him.",
+      "guide": "MISSABLE! Use companion assist 10 times with Bode AND 10 times with Merrin. Lock on with R3, then hold R1 and press Square to call companions.",
+      "walkthrough": "Bode is only available in Chapters 1 & 4. Merrin joins in Chapter 3 and stays available. Make sure to use Bode's assist at least 10 times before completing Chapter 4. Spam the ability during every fight when companions are present.",
+      "checklist": [
+        { "id": "friend-bode", "label": "Use Bode's assist 10 times", "location": "Chapters 1 & 4 only", "notes": "MISSABLE - Do this before Chapter 4 ends!", "walkthrough": "Lock on to an enemy (R3), hold R1 and press Square. Do this 10 times in fights with Bode." },
+        { "id": "friend-merrin", "label": "Use Merrin's assist 10 times", "location": "Chapter 3 onwards", "notes": "Can be done anytime after Chapter 3", "walkthrough": "Same controls as Bode. Merrin stays available so this isn't missable." }
+      ]
+    },
+    {
+      "id": "bronze-014",
+      "name": "Han Slowlo",
+      "description": "Defeat 50 enemies under the effect of Slow",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Defeat 50 enemies while they are under the effect of Force Slow (L3+R3).",
+      "walkthrough": "Activate Slow with L3+R3, then attack enemies before the effect wears off. Purchase the Extended Hold skill from the Force tree to make Slow last longer. This will come naturally over time."
+    },
+    {
+      "id": "bronze-015",
+      "name": "So Uncivilized",
+      "description": "Defeat 10 enemies with shots using the Point Blank skill",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Unlock the Blaster stance in Chapter 3, then purchase Point Blank from the skill tree. Press Triangle just before an enemy melee attacks to counter-blast them.",
+      "walkthrough": "Point Blank is a reaction shot that triggers when you press Triangle right as an enemy swings at you. The timing window is generous. Get 10 kills this way.",
+      "prerequisites": ["Blaster stance (Chapter 3)", "Point Blank skill"]
+    },
+    {
+      "id": "bronze-016",
+      "name": "Catch!",
+      "description": "Hit 3 enemies with a single roller mine",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find Roller Mine enemies on Koboh. Get three enemies grouped together, then use Force Pull on a roller mine to throw it at them.",
+      "walkthrough": "Go to Untamed Downs on Koboh where roller mines spawn. Lure 3+ enemies close together. Use Force Pull on a nearby roller mine to grab and throw it at the group. The explosion needs to hit all 3.",
+      "farmingTip": "Untamed Downs has plenty of roller mines and groups of enemies."
+    },
+    {
+      "id": "bronze-017",
+      "name": "They Never Saw It Coming",
+      "description": "Strike an unaware enemy 20 times",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Perform stealth attacks on 20 unaware enemies. When approaching an enemy from behind, press Square when the prompt appears.",
+      "walkthrough": "Sneak up on enemies and press Square when you see the stealth attack prompt. You can farm this at Meditation Points - rest to respawn enemies and repeat.",
+      "farmingTip": "Rest at any Meditation Point to respawn nearby enemies for easy farming."
+    },
+    {
+      "id": "bronze-018",
+      "name": "This Is Canon",
+      "description": "Push an enemy into the Shattered Moon mining cannon",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Visit Shattered Moon in Chapter 4. During the large platform battle, use Force Push on enemies to knock them into the mining cannon beam.",
+      "walkthrough": "In the mining facility on Shattered Moon, there's a large battle arena with an active mining laser. Position yourself so enemies are between you and the beam, then Force Push them into it."
+    },
+    {
+      "id": "bronze-019",
+      "name": "Get Down From There",
+      "description": "Attack 20 Lifted enemies",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use Force Lift (R1+Triangle) on enemies starting in Chapter 4, then attack them while suspended. Repeat 20 times.",
+      "walkthrough": "After unlocking Lift in Chapter 4, use R1+Triangle on enemies to lift them. Attack with your lightsaber or Lightsaber Throw while they're floating. Each lifted enemy you hit counts.",
+      "prerequisites": ["Force Lift ability (Chapter 4)"]
+    },
+    {
+      "id": "bronze-020",
+      "name": "One With the Force",
+      "description": "Avoid 50 attacks using Focus Sight",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase Focus Sight from the Survival skill tree. Hold Circle during combat to automatically evade attacks. Avoid 50 attacks total.",
+      "walkthrough": "Focus Sight creates a slow-motion state where Cal automatically dodges. Hold Circle when enemies attack. Each avoided attack counts. Use it against groups for fast progress.",
+      "prerequisites": ["Focus Sight skill (Survival tree)"]
+    },
+    {
+      "id": "bronze-021",
+      "name": "Mirror Match",
+      "description": "A confused enemy defeats an enemy of the same type",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use Force Confusion (hold R1, press Circle) on an enemy. That confused enemy must then kill another enemy of the exact same type.",
+      "walkthrough": "Find two identical enemies (like two Stormtroopers or two droids). Confuse one with R1+Circle. The confused enemy will attack others. Wait for it to kill an identical enemy type.",
+      "farmingTip": "Groups of Stormtroopers work well since they can kill each other quickly."
+    },
+    {
+      "id": "bronze-022",
+      "name": "Pinpoint",
+      "description": "Execute 10 perfectly timed precision releases",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase Precision Release from the Dual Wield skill tree. Press and release Triangle with perfect timing as an enemy attacks to perform a quick flurry.",
+      "walkthrough": "In Dual Wield stance, hold Triangle to charge. Release it exactly as an enemy attack lands for a precision release. Cal will perform a rapid counterattack. Get 10 perfect releases.",
+      "prerequisites": ["Dual Wield stance", "Precision Release skill"]
+    },
+    {
+      "id": "bronze-023",
+      "name": "Slam Dunk",
+      "description": "Slam 5 enemies with a single use of Slam",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase Mass Slam from the Force > Telekinesis tree. Charge Slam by holding R1+X on 5+ grouped enemies.",
+      "walkthrough": "You need Mass Slam and Wrenching Pull skills. Use Wrenching Pull (L2) to gather enemies together, then hold R1+X to charge Slam. Release when 5+ enemies are in range.",
+      "prerequisites": ["Mass Slam skill", "Wrenching Pull skill (recommended)"],
+      "farmingTip": "Find areas with many weak enemies like Droids or Stormtrooper patrols."
+    },
+    {
+      "id": "bronze-024",
+      "name": "Riposte",
+      "description": "Parry a Force Pull resisting enemy",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find Force Pull-resistant enemies like BX Droids. Attempt to Pull them with L2 - they'll resist and charge at you. Parry their charge attack with L1.",
+      "walkthrough": "BX Commando Droids resist Force Pull and sprint attack instead. Press L2 to attempt pulling one. When it resists and runs at you, press L1 to parry its attack."
+    },
+    {
+      "id": "bronze-025",
+      "name": "King of the World",
+      "description": "Reach the highest point of Harvest Ridge",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete a complex puzzle at Harvest Ridge on Koboh involving Nekkos, chain contraptions, and lift mechanisms to reach the very top.",
+      "walkthrough": "This is a multi-step puzzle. Mount a Nekko and ride to the barn. Use the Nekko to reach the second floor. Solve chain puzzles to access platforms. Use lifts to reach the highest tower."
+    },
+    {
+      "id": "bronze-026",
+      "name": "There Is No Try",
+      "description": "Help lift a ship out of the tar pits",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Visit Gorge Crash Site in Chapter 2. Return after learning Force Lift in Chapter 4. Use R1+Triangle to help the Pit Droid raise its ship.",
+      "walkthrough": "At Gorge Crash Site, there's a Pit Droid trying to lift a ship from the tar. After unlocking Force Lift in Chapter 4, return and use R1+Triangle on the ship to help lift it.",
+      "prerequisites": ["Force Lift ability (Chapter 4)"]
+    },
+    {
+      "id": "bronze-027",
+      "name": "Now, This Isn't Podracing",
+      "description": "Travel 500m of distance while riding creatures",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Ride Nekkos on Koboh and Spamels on Jedha. Call mounts with R1. The counter may be inaccurate - you might need 1500m+ total.",
+      "walkthrough": "Mount creatures whenever you see them and ride around. Nekkos are found across Koboh; Spamels roam Jedha's desert. The distance counter seems buggy, so ride more than expected."
+    },
+    {
+      "id": "bronze-028",
+      "name": "Cleaning Up",
+      "description": "Refresh the Refresher",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Enter the Cantina bathroom (right side from entrance) and interact with the toilet on the left side.",
+      "walkthrough": "In Pyloon's Saloon, go to the right side and find the bathroom door. Enter and interact with the toilet. You'll also get a Priorite Shard as a reward."
+    },
+    {
+      "id": "bronze-029",
+      "name": "They're Probably Fine",
+      "description": "Drop your mount into the great unknown",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "On Jedha, mount a Spamel near Anchorite Base and ride it off a cliff. Note: This trophy is buggy and may require multiple attempts.",
+      "walkthrough": "Find a Spamel on Jedha. Mount it and ride toward a cliff edge. Dismount at the last second to let the mount fall off. If the trophy doesn't pop, travel away and return to try again. May require rebooting the game."
+    },
+    {
+      "id": "bronze-030",
+      "name": "Skywalker",
+      "description": "Keep your feet off the ground and walls for 60 seconds",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Hang from pipes, ropes, or ziplines for 60 continuous seconds without touching ground or walls.",
+      "walkthrough": "Find a long zipline and use it. Spam Triangle to change direction on the zipline, going back and forth. Alternatively, hang from any climbable rope or pipe and wait 60 seconds."
+    },
+    {
+      "id": "bronze-031",
+      "name": "It's a Trap",
+      "description": "Explore the Phon'Qi Caverns",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Go to Foothill Falls on Koboh. Enter the abandoned shack and use Force Pull on the trapdoor to access the caverns.",
+      "walkthrough": "At Foothill Falls, find an abandoned building with a trapdoor inside. Pull it open with Force Pull. Navigate through the cavern past droids and creatures. Defeat three Bedlam Raiders at the end. Use BD-1 to slice the terminal for a Map Upgrade."
+    },
+    {
+      "id": "bronze-032",
+      "name": "Max Capacity",
+      "description": "Have a packed cantina",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Recruit all 11 NPCs to Pyloon's Saloon by exhausting their dialogue or completing their Rumors/quests.",
+      "walkthrough": "Find and recruit: Turgle, Greez (story), Tulakt, Merrin (story), Caij (bounty questline), Skoova, T-1N8, Tulli, Bhima, Zee, and the Pit Droid. Some require completing side content.",
+      "checklist": [
+        { "id": "npc-1", "label": "Greez", "location": "Story-related", "notes": "Automatic" },
+        { "id": "npc-2", "label": "Turgle", "location": "Saloon basement", "notes": "Find him hiding" },
+        { "id": "npc-3", "label": "Tulakt", "location": "Koboh exploration", "notes": null },
+        { "id": "npc-4", "label": "Merrin", "location": "Story-related", "notes": "Joins in Chapter 3" },
+        { "id": "npc-5", "label": "Caij", "location": "Complete all bounties", "notes": "Bounty questline" },
+        { "id": "npc-6", "label": "Skoova Stev", "location": "Fishing spots", "notes": "Give him fish" },
+        { "id": "npc-7", "label": "T-1N8", "location": "Derelict Dam", "notes": "Repair the droid" },
+        { "id": "npc-8", "label": "Tulli", "location": "Koboh", "notes": "Complete her Rumor" },
+        { "id": "npc-9", "label": "Bhima", "location": "Jedha", "notes": "Complete her Rumor" },
+        { "id": "npc-10", "label": "Zee", "location": "Koboh", "notes": "Repair quest" },
+        { "id": "npc-11", "label": "Pit Droid", "location": "Gorge Crash Site", "notes": "Help lift ship (There Is No Try)" }
+      ]
+    },
+    {
+      "id": "bronze-033",
+      "name": "Can You Pet the Bogling?",
+      "description": "You can pet the bogling",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Boglings appear at the stables next to Pyloon's Saloon after your first visit. Approach one and interact to pet it.",
+      "walkthrough": "After visiting the Saloon, Boglings will start appearing at the nearby stables. Walk up to one and press the interact button to pet it."
+    },
+    {
+      "id": "bronze-034",
+      "name": "Who Gives a Puck",
+      "description": "Obtain your first bounty",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Towards the end of Chapter 3, bounty hunter Korej Lim attacks you. Defeat him to unlock."
+    },
+    {
+      "id": "bronze-035",
+      "name": "Greezy Money",
+      "description": "Trade 25 collected items",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Spend 25 items at any shop using Data Discs, Priorite Shards, or Jedha Scrolls. Unlocks naturally while pursuing collectibles.",
+      "walkthrough": "As you explore, you'll find Data Discs, Priorite Shards, and Jedha Scrolls. Spend these at Doma's shop or other vendors. You'll naturally hit 25 purchases while going for 100%."
+    },
+    {
+      "id": "bronze-036",
+      "name": "Cobra Cal",
+      "description": "Train with your weapons while wearing a headband",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase a headband from Doma's Shop (7 Priorite Shards). Equip it, then travel to Jedha and hit the training dummy next to your ship.",
+      "walkthrough": "Buy the headband from Doma in Rambler's Reach. Go to Customization and equip it on Cal. Fly to Jedha and find the training dummy near the Mantis landing spot. Attack it.",
+      "prerequisites": ["Headband (7 Priorite Shards from Doma's shop)"]
+    },
+    {
+      "id": "bronze-037",
+      "name": "A Presence I've Not Felt Since…",
+      "description": "Wear an old wardrobe staple",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Defeat the Spawn of Oggdo legendary boss in Koboh's Fort Kah'Lin. Open the chest afterward to get Cal's Poncho from Fallen Order. Equip it.",
+      "walkthrough": "Fort Kah'Lin is in southwestern Koboh. Fight through to find the Spawn of Oggdo (a callback to Fallen Order's infamous frog). Defeat it and open the chest for the original Poncho. Equip in Customization."
+    },
+    {
+      "id": "bronze-038",
+      "name": "Hey, Luke At Us",
+      "description": "Equip a new cosmetic in every Cal slot",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Change Cal's Hair, Jacket, Shirt, and Pants to items found in chests or purchased from shops.",
+      "walkthrough": "Find or buy cosmetic items for each of Cal's four clothing slots. Go to Customization and change all four: Hair/Beard, Jacket, Shirt, and Pants. Each must be different from the default."
+    },
+    {
+      "id": "bronze-039",
+      "name": "Road House",
+      "description": "Dropkick an enemy while wearing a mullet",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find the Mullet hairstyle in a chest at Derelict Dam (requires Slam ability from Chapter 4). Equip it, then use Crossguard stance and hold Square while running at an enemy.",
+      "walkthrough": "The Mullet is in Derelict Dam, accessible after getting Slam in Chapter 4. Navigate to the yellow platform across from the creature. Open the chest for the Mullet. Equip it, switch to Crossguard stance, and hold Square while sprinting at an enemy to dropkick.",
+      "prerequisites": ["Force Slam (Chapter 4)", "Crossguard stance"]
+    },
+    {
+      "id": "bronze-040",
+      "name": "Kitted Out",
+      "description": "Customize BD-1, the blaster, and Cal's lightsaber with new parts",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect BD-1's Assembly Kit from the Mantis kitchen (story-required in Chapter 1). Receive the blaster from Bode after the Jedi Archives discovery. Customize each at Workbenches.",
+      "walkthrough": "The BD-1 kit is found early in the Mantis. The blaster comes from Bode in Chapter 3. Once you have both, visit any Workbench and change at least one cosmetic part on BD-1, the blaster, AND the lightsaber."
+    },
+    {
+      "id": "bronze-041",
+      "name": "Skoova Diving",
+      "description": "Fill the aquarium in the cantina",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find all 12 fish locations throughout the game. Skoova Stev will collect fish when you find him near bodies of water.",
+      "walkthrough": "Skoova appears at various fishing spots. When you see him, interact and he'll catch a fish for the aquarium. Find all 12 fish species across Koboh, Jedha, and other locations.",
+      "checklist": [
+        { "id": "fish-1", "label": "Fish 1", "location": "Koboh - Gorge Crash Site", "notes": null },
+        { "id": "fish-2", "label": "Fish 2", "location": "Koboh - Rambler's Reach pond", "notes": null },
+        { "id": "fish-3", "label": "Fish 3", "location": "Koboh - Viscid Bog", "notes": null },
+        { "id": "fish-4", "label": "Fish 4", "location": "Koboh - Basalt Rift", "notes": null },
+        { "id": "fish-5", "label": "Fish 5", "location": "Koboh - Foothill Falls", "notes": null },
+        { "id": "fish-6", "label": "Fish 6", "location": "Jedha - Water source", "notes": null },
+        { "id": "fish-7", "label": "Fish 7", "location": "Various", "notes": null },
+        { "id": "fish-8", "label": "Fish 8", "location": "Various", "notes": null },
+        { "id": "fish-9", "label": "Fish 9", "location": "Various", "notes": null },
+        { "id": "fish-10", "label": "Fish 10", "location": "Various", "notes": null },
+        { "id": "fish-11", "label": "Fish 11", "location": "Various", "notes": null },
+        { "id": "fish-12", "label": "Fish 12", "location": "Various", "notes": null }
+      ]
+    },
+    {
+      "id": "bronze-042",
+      "name": "Growth Spurt",
+      "description": "Find space for a full garden",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect all 10 Seed Pods and grow 10 plants in the Cantina rooftop garden.",
+      "walkthrough": "Seeds are found in glowing Seed Pods throughout the game. Bring them to Pili's garden on the Saloon roof. Plant each seed and wait for them to grow. You need 10 different plants.",
+      "checklist": [
+        { "id": "seed-1", "label": "Seed Pod 1", "location": "Koboh", "notes": null },
+        { "id": "seed-2", "label": "Seed Pod 2", "location": "Koboh", "notes": null },
+        { "id": "seed-3", "label": "Seed Pod 3", "location": "Koboh", "notes": null },
+        { "id": "seed-4", "label": "Seed Pod 4", "location": "Jedha", "notes": null },
+        { "id": "seed-5", "label": "Seed Pod 5", "location": "Jedha", "notes": null },
+        { "id": "seed-6", "label": "Seed Pod 6", "location": "Shattered Moon", "notes": null },
+        { "id": "seed-7", "label": "Seed Pod 7", "location": "Various", "notes": null },
+        { "id": "seed-8", "label": "Seed Pod 8", "location": "Various", "notes": null },
+        { "id": "seed-9", "label": "Seed Pod 9", "location": "Various", "notes": null },
+        { "id": "seed-10", "label": "Seed Pod 10", "location": "Various", "notes": null }
+      ]
+    },
+    {
+      "id": "bronze-043",
+      "name": "Reconnaissance",
+      "description": "Use BD-1 to investigate a target in the distance",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Unlock BD Visor in Chapter 2 on Koboh. Press Down > R3 > Square to scan enemies through the binoculars.",
+      "walkthrough": "After getting the BD Visor upgrade, press Down to enter binocular mode. Find an enemy in the distance. Press R3 to zoom, then Square to scan. Select 'Show Tactical Guide Entry' on a previously scanned enemy.",
+      "prerequisites": ["BD Visor upgrade (Chapter 2)"]
+    },
+    {
+      "id": "bronze-044",
+      "name": "Splurgle",
+      "description": "Purchase all of Doma's merchandise",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Buy everything from Doma's shop - requires 100 Priorite Shards total.",
+      "walkthrough": "Doma's shop is in Rambler's Reach on Koboh. Priorite Shards are found across Koboh and Coruscant. One tricky shard: stable a brightly-colored Nekko at Rambler's Reach stable, then rest - it will poop out a shard."
+    },
+    {
+      "id": "bronze-045",
+      "name": "The Jedi Path",
+      "description": "Fully upgrade 3 skill trees",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Unlock every skill in 3 of the 9 available skill trees. Earn XP through combat, scanning, story completion, and Force Tears.",
+      "walkthrough": "Choose 3 skill trees and buy every skill in each. Smaller trees are easier to complete. Farm XP at Meditation Points if needed - rest to respawn enemies and defeat them repeatedly."
     }
   ],
   "suggestedOrder": [
     {
-      "phase": "First Playthrough",
-      "description": "Focus on the story and explore naturally. Don't worry about finding everything.",
-      "trophyIds": [
-        "gold-001",
-        "bronze-001",
-        "bronze-002"
-      ]
+      "phase": "Chapter 1-2: Early Game",
+      "description": "Focus on story progression. START USING BODE'S COMPANION ASSIST IMMEDIATELY - this is missable!",
+      "trophyIds": ["bronze-001", "bronze-002", "bronze-003", "bronze-013"]
     },
     {
-      "phase": "Side Content",
-      "description": "After story completion, tackle side quests and bounties.",
-      "trophyIds": [
-        "gold-002",
-        "silver-001"
-      ]
+      "phase": "Chapter 3-4: Mid Game",
+      "description": "Continue story. Start bounty hunting with Caij. Use companion assists with both Bode and Merrin. Get at least 10 Bode assists before Chapter 4 ends!",
+      "trophyIds": ["bronze-004", "bronze-005", "bronze-006", "bronze-007", "bronze-034"]
     },
     {
-      "phase": "Cleanup",
-      "description": "Use the holomap to systematically clear each region of collectibles.",
-      "trophyIds": [
-        "silver-002",
-        "silver-003",
-        "bronze-003",
-        "bronze-004"
-      ]
+      "phase": "Chapter 5-6: Late Game",
+      "description": "Complete the story. Tackle Force Tears and legendary bosses as you find them.",
+      "trophyIds": ["bronze-008", "bronze-009", "bronze-010", "bronze-011", "bronze-012", "gold-001"]
+    },
+    {
+      "phase": "Post-Game: Bounties & Legends",
+      "description": "Complete Caij's bounty questline and defeat all legendary adversaries.",
+      "trophyIds": ["silver-001", "silver-002"]
+    },
+    {
+      "phase": "Post-Game: Collectibles",
+      "description": "Use the holomap to systematically clear each region. Complete all Jedi Chambers and Force Tears.",
+      "trophyIds": ["gold-002", "silver-005", "bronze-041", "bronze-042", "bronze-032"]
+    },
+    {
+      "phase": "Post-Game: Combat & Misc",
+      "description": "Clean up combat-related trophies and miscellaneous challenges.",
+      "trophyIds": ["silver-003", "silver-004", "silver-006", "bronze-014", "bronze-015", "bronze-045"]
+    },
+    {
+      "phase": "Platinum",
+      "description": "With all other trophies complete, the platinum is yours!",
+      "trophyIds": ["platinum-001"]
     }
   ],
   "rawgId": 793647,
