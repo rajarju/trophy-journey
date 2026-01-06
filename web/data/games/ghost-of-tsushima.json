@@ -1,0 +1,936 @@
+{
+  "slug": "ghost-of-tsushima",
+  "title": "Ghost of Tsushima",
+  "platform": "PS4/PS5",
+  "metadata": {
+    "estimatedTime": "40-60 hours",
+    "difficulty": "3/10",
+    "playthroughsRequired": 1,
+    "missableTrophies": 0,
+    "onlineRequired": false
+  },
+  "journeyIntro": {
+    "overview": "Ghost of Tsushima follows Jin Sakai, a samurai who must abandon his traditional warrior code to save Tsushima Island from Mongol invasion. The trophy list combines story completion, exploration, and combat challenges with no difficulty requirements.",
+    "recommendedApproach": "Play through the story while liberating camps and exploring as you go. The Guiding Wind system makes finding collectibles easy. Complete character tales (Norio, Masako, Ishikawa, Yuna) as they become available. Clean up remaining collectibles after the story.",
+    "warnings": [
+      "No missable trophies - everything can be completed after the story",
+      "Game-breaking progression bugs occur in ~20% of playthroughs - manual save after every quest recommended",
+      "Equip Charm of Inari early to increase supplies found",
+      "Can be completed on any difficulty - no difficulty trophies"
+    ]
+  },
+  "trophies": [
+    {
+      "id": "platinum-001",
+      "name": "Living Legend",
+      "description": "Obtain all trophies",
+      "type": "platinum",
+      "isMissable": false,
+      "guide": "Earn all other 51 trophies to unlock the platinum. DLC (Iki Island) trophies are not required.",
+      "walkthrough": "Follow the suggested phases below. With no missables and the helpful Guiding Wind, this is a very achievable platinum."
+    },
+    {
+      "id": "gold-001",
+      "name": "Mono No Aware",
+      "description": "Leave the past behind and accept the burden of your new mantle",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks automatically after completing the final tale of the main story."
+    },
+    {
+      "id": "gold-002",
+      "name": "Helping Sword Hand",
+      "description": "Complete all Tales of Tsushima",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Complete all 61 side tales (silver icons on map). Tales become visible after liberating regions and talking to NPCs.",
+      "walkthrough": "After liberating Mongol camps, fog clears and tale markers appear. Talk to peasants with speech bubbles to discover more tales. Some tales are locked behind story progression."
+    },
+    {
+      "id": "silver-001",
+      "name": "The Warrior Monk",
+      "description": "Complete all of Norio's Tales",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 9 tales in Norio's questline. Norio is a warrior monk you meet in Act 2.",
+      "checklist": [
+        {
+          "id": "norio-1",
+          "label": "The Birth of Suffering",
+          "location": "Act 2",
+          "notes": "Introduces Norio"
+        },
+        {
+          "id": "norio-2",
+          "label": "The Cause of Suffering",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "norio-3",
+          "label": "The Blood Sutra",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "norio-4",
+          "label": "The End of Suffering",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "norio-5",
+          "label": "Flesh and Stone",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "norio-6",
+          "label": "The Healing Wounds",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "norio-7",
+          "label": "The Last Warrior Monk",
+          "location": "Act 3",
+          "notes": null
+        },
+        {
+          "id": "norio-8",
+          "label": "Requiem for the Fallen",
+          "location": "Act 3",
+          "notes": null
+        },
+        {
+          "id": "norio-9",
+          "label": "The Undying Flame",
+          "location": "Act 3",
+          "notes": "Final Norio tale"
+        }
+      ]
+    },
+    {
+      "id": "silver-002",
+      "name": "The Vengeful Warrior",
+      "description": "Complete all of Masako's Tales",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 9 tales in Lady Masako's questline. Masako is an elderly samurai seeking vengeance for her family.",
+      "checklist": [
+        {
+          "id": "masako-1",
+          "label": "The Tale of Lady Masako",
+          "location": "Act 1",
+          "notes": "Introduces Masako"
+        },
+        {
+          "id": "masako-2",
+          "label": "The Husband",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "masako-3",
+          "label": "The Family Man",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "masako-4",
+          "label": "The Fool",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "masako-5",
+          "label": "The Traitor",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "masako-6",
+          "label": "The Thief",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "masako-7",
+          "label": "The Conspirator",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "masako-8",
+          "label": "The Assassin",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "masako-9",
+          "label": "The Legacy of Kazumasa Sakai",
+          "location": "Act 3",
+          "notes": "Final Masako tale"
+        }
+      ]
+    },
+    {
+      "id": "silver-003",
+      "name": "The Unbending Archer",
+      "description": "Complete all of Ishikawa's Tales",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 9 tales in Sensei Ishikawa's questline. Ishikawa is an archery master hunting his former student.",
+      "checklist": [
+        {
+          "id": "ishikawa-1",
+          "label": "The Tale of Sensei Ishikawa",
+          "location": "Act 1",
+          "notes": "Introduces Ishikawa"
+        },
+        {
+          "id": "ishikawa-2",
+          "label": "The Way of the Bow",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "ishikawa-3",
+          "label": "The Past Never Passes",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "ishikawa-4",
+          "label": "Three Actions, Threeستر",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "ishikawa-5",
+          "label": "The Terror of Otsuna",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "ishikawa-6",
+          "label": "Laid to Rest",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "ishikawa-7",
+          "label": "Message in Blood",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "ishikawa-8",
+          "label": "A Debt Repaid",
+          "location": "Act 3",
+          "notes": null
+        },
+        {
+          "id": "ishikawa-9",
+          "label": "The Ghost and the Demon Sensei",
+          "location": "Act 3",
+          "notes": "Final Ishikawa tale"
+        }
+      ]
+    },
+    {
+      "id": "silver-004",
+      "name": "The Headstrong Thief",
+      "description": "Complete all of Yuna's Tales",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 4 tales in Yuna's questline. Yuna is a thief who helps Jin throughout the story.",
+      "checklist": [
+        {
+          "id": "yuna-1",
+          "label": "The Tale of Yuna",
+          "location": "Act 1",
+          "notes": "Introduces Yuna's background"
+        },
+        {
+          "id": "yuna-2",
+          "label": "Blood on the Grass",
+          "location": "Act 1",
+          "notes": null
+        },
+        {
+          "id": "yuna-3",
+          "label": "The Black Wolf",
+          "location": "Act 2",
+          "notes": null
+        },
+        {
+          "id": "yuna-4",
+          "label": "Yuna's Tale (Final)",
+          "location": "Act 3",
+          "notes": "Final Yuna tale"
+        }
+      ]
+    },
+    {
+      "id": "silver-005",
+      "name": "Teller of Tales",
+      "description": "Complete all of the Mythic Tales",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 7 Mythic Tales. These unlock powerful techniques and legendary gear.",
+      "walkthrough": "Mythic Tales are marked with blue/white icons. Find musicians in villages to start them. Each rewards a unique technique or cosmetic.",
+      "checklist": [
+        {
+          "id": "mythic-1",
+          "label": "The Legend of Tadayori",
+          "location": "Izuhara",
+          "notes": "Rewards: Tadayori's Armor"
+        },
+        {
+          "id": "mythic-2",
+          "label": "The Heavenly Strike",
+          "location": "Izuhara",
+          "notes": "Rewards: Heavenly Strike technique"
+        },
+        {
+          "id": "mythic-3",
+          "label": "The Curse of Uchitsune",
+          "location": "Izuhara",
+          "notes": "Rewards: Longbow"
+        },
+        {
+          "id": "mythic-4",
+          "label": "The Unbreakable Gosaku",
+          "location": "Toyotama",
+          "notes": "Rewards: Gosaku's Armor"
+        },
+        {
+          "id": "mythic-5",
+          "label": "The Spirit of Yarikawa's Vengeance",
+          "location": "Toyotama",
+          "notes": "Rewards: Dance of Wrath technique"
+        },
+        {
+          "id": "mythic-6",
+          "label": "The Six Blades of Kojiro",
+          "location": "Toyotama",
+          "notes": "Rewards: Kensei Armor"
+        },
+        {
+          "id": "mythic-7",
+          "label": "The Undying Flame",
+          "location": "Kamiagata",
+          "notes": "Rewards: Way of the Flame technique"
+        }
+      ]
+    },
+    {
+      "id": "silver-006",
+      "name": "Have a Nice Fall",
+      "description": "Kill an enemy with fall damage by knocking them off a ledge",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Knock an enemy off a cliff to kill them with fall damage. Easiest with Shoulder Charge or Typhoon Kick skills.",
+      "walkthrough": "Purchase Shoulder Charge (Deflection tree) or Typhoon Kick (Evasion tree). Find enemies near cliffs - coastlines and mountain camps work well. Charge into them to push them off.",
+      "farmingTip": "Do this before liberating all camps. After 100% liberation, fewer enemies spawn in the world."
+    },
+    {
+      "id": "silver-007",
+      "name": "Cooper Clan Cosplayer",
+      "description": "Dress up as a legendary thief",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Equip the full Sly Cooper outfit - a crossover costume from Sucker Punch's other game series.",
+      "walkthrough": "Collect all Sly Cooper costume pieces: Crooked Kama headband (Pillar of Honor), Thief's Wrap mask (merchant), and Gosaku's Armor dyed blue. Or find the specific hidden altar that gives the full outfit."
+    },
+    {
+      "id": "silver-008",
+      "name": "Master Liberator",
+      "description": "Liberate the entirety of Tsushima Island",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Liberate all 56 Mongol-occupied territories across all three regions.",
+      "walkthrough": "Clear all Mongol camps, forts, and occupied villages. The map fog clears as you liberate areas, making undiscovered locations easier to find.",
+      "checklist": [
+        {
+          "id": "lib-izuhara",
+          "label": "Liberate all 24 areas in Izuhara",
+          "location": "Act 1 region",
+          "notes": null
+        },
+        {
+          "id": "lib-toyotama",
+          "label": "Liberate all 17 areas in Toyotama",
+          "location": "Act 2 region",
+          "notes": null
+        },
+        {
+          "id": "lib-kamiagata",
+          "label": "Liberate all 15 areas in Kamiagata",
+          "location": "Act 3 region",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "silver-009",
+      "name": "Body, Mind, and Spirit",
+      "description": "Complete all Hot Springs, Haiku, Inari Shrines, and Bamboo Strikes",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Find and complete all meditation/training activities across Tsushima.",
+      "walkthrough": "Use the Guiding Wind to track these collectibles. Hot Springs increase health, Haiku give headbands, Inari Shrines unlock charm slots, and Bamboo Strikes increase Resolve.",
+      "checklist": [
+        {
+          "id": "hotspring",
+          "label": "Complete all 18 Hot Springs",
+          "location": "All regions",
+          "notes": "Increases max health"
+        },
+        {
+          "id": "haiku",
+          "label": "Complete all 19 Haiku",
+          "location": "All regions",
+          "notes": "Awards headbands"
+        },
+        {
+          "id": "inari",
+          "label": "Honor all 49 Inari Shrines",
+          "location": "All regions",
+          "notes": "Unlocks charm slots"
+        },
+        {
+          "id": "bamboo",
+          "label": "Complete all 16 Bamboo Strikes",
+          "location": "All regions",
+          "notes": "Increases Resolve"
+        }
+      ]
+    },
+    {
+      "id": "bronze-001",
+      "name": "Gathering Storm",
+      "description": "Recover the katana of clan Sakai",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks during the prologue when Jin recovers his family's sword."
+    },
+    {
+      "id": "bronze-002",
+      "name": "Point of No Return",
+      "description": "Break your code to help a new friend",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'The Warrior's Code' tale where Jin first uses dishonorable tactics."
+    },
+    {
+      "id": "bronze-003",
+      "name": "Company of Wolves",
+      "description": "Recruit the Straw Hat ronin",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'The Tale of Ryuzo' and recruiting the Straw Hats."
+    },
+    {
+      "id": "bronze-004",
+      "name": "Stoking the Flame",
+      "description": "Rescue Taka from Mongol captivity",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'The Broken Blacksmith' tale."
+    },
+    {
+      "id": "bronze-005",
+      "name": "Family Reunion",
+      "description": "Free Lord Shimura from the Khan's clutches",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'Shadow of the Samurai' - the finale of Act 1."
+    },
+    {
+      "id": "bronze-006",
+      "name": "Leader of the People",
+      "description": "Rally the peasants of Yarikawa",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'The Ghost of Yarikawa' tale."
+    },
+    {
+      "id": "bronze-007",
+      "name": "Birthright",
+      "description": "Recover your father's armor",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'Ghosts from the Past' where Jin retrieves the Sakai Clan Armor."
+    },
+    {
+      "id": "bronze-008",
+      "name": "Dying Embers",
+      "description": "Eradicate the traitors in the name of a fallen friend",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'A Reckoning in Blood' - the finale of Act 2."
+    },
+    {
+      "id": "bronze-009",
+      "name": "The Ghost",
+      "description": "Embrace your new identity",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'From the Darkness' where Jin fully becomes the Ghost."
+    },
+    {
+      "id": "bronze-010",
+      "name": "The Exiled Alliance",
+      "description": "Reunite with your allies in the frozen north",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'Wolves at the Gates' in Act 3."
+    },
+    {
+      "id": "bronze-011",
+      "name": "Sovereign End",
+      "description": "Confront the Khan",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing 'Eternal Blue Sky' - the final confrontation with Khotun Khan."
+    },
+    {
+      "id": "bronze-012",
+      "name": "Flash of Steel",
+      "description": "Defeat 20 enemies with a counterattack after a Perfect Parry",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Kill 20 enemies using Perfect Parry counterattacks. Press L1 just as an attack lands for a Perfect Parry, then immediately attack.",
+      "walkthrough": "Practice the timing - press L1 right when an enemy's weapon is about to hit. A successful Perfect Parry staggers the enemy, allowing a free hit. This counts when the follow-up attack kills them."
+    },
+    {
+      "id": "bronze-013",
+      "name": "Witness Protection",
+      "description": "Shoot a Terrified enemy with an arrow while they're fleeing",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Kill a fleeing terrified enemy with your bow. Enemies become terrified from Ghost Stance or poison darts.",
+      "walkthrough": "Activate Ghost Stance (after 7 kills without taking damage) or use blowgun poison darts. When enemies flee in terror, quickly shoot them with your bow before they escape."
+    },
+    {
+      "id": "bronze-014",
+      "name": "All in the Wrist",
+      "description": "Defeat the maximum number of enemies in a single Standoff",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Defeat 5 enemies in a single Standoff. Requires fully upgraded Sakai Clan Armor (+4 bonus) and Standoff skills.",
+      "walkthrough": "Upgrade Sakai Clan Armor to max and purchase all Standoff skills in the Samurai tree. Approach a group of 5+ enemies and initiate a Standoff. Win all 5 quick-time events in succession.",
+      "prerequisites": [
+        "Sakai Clan Armor (max upgrade)",
+        "All Standoff skills"
+      ]
+    },
+    {
+      "id": "bronze-015",
+      "name": "Open for Business",
+      "description": "Successfully Stagger enemies 50 times",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Stagger 50 enemies by depleting their white stagger bar. Use the correct stance against each enemy type.",
+      "walkthrough": "Stone stance is effective against swordsmen, Water against shieldmen, Wind against spearmen, Moon against brutes. Using the right stance depletes the stagger bar faster. This unlocks naturally."
+    },
+    {
+      "id": "bronze-016",
+      "name": "There Can Be Only One",
+      "description": "Successfully complete every duel",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Win all 25 duels in the game. Duels occur in story missions, camp liberations, and mythic tales.",
+      "walkthrough": "Duels are 1v1 sword fights against named enemies. They appear throughout the story and in some side content. Focus on parrying and counterattacking. All duels are required for 100% anyway."
+    },
+    {
+      "id": "bronze-017",
+      "name": "Haunting Precision",
+      "description": "Kill 20 enemies with Ghost Stance strikes",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Kill 20 enemies while Ghost Stance is active. Ghost Stance activates after 7 kills without taking damage.",
+      "walkthrough": "Build up to Ghost Stance by killing 7 enemies without getting hit. When activated, you can instantly kill up to 3 enemies. Repeat until you have 20 total Ghost Stance kills."
+    },
+    {
+      "id": "bronze-018",
+      "name": "The Ghost of Legend",
+      "description": "Build your Legend to earn the title Ghost of Tsushima",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Reach maximum Legend rank. Unlocks automatically through completing story content and side activities."
+    },
+    {
+      "id": "bronze-019",
+      "name": "Quick Study",
+      "description": "Learn the Stone, Water, Wind, and Moon combat stances",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Unlock all 4 combat stances by observing or killing Mongol leaders.",
+      "walkthrough": "Each stance requires observing/killing several Mongol leaders (enemies with special icons). Leaders appear in camps, forts, and story missions. You'll unlock all stances naturally by mid-game."
+    },
+    {
+      "id": "bronze-020",
+      "name": "Every Trick in the Book",
+      "description": "Acquire all the throwable Ghost Weapon techniques",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Unlock all throwable ghost weapons: Kunai, Smoke Bomb, Sticky Bomb, Wind Chime, and Firecracker.",
+      "walkthrough": "Purchase the first tier of each ghost weapon in the Ghost skill tree, plus the Firecracker skill. Requires technique points earned from completing content."
+    },
+    {
+      "id": "bronze-021",
+      "name": "The Perfect Storm",
+      "description": "Fully upgrade your sword",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Upgrade the Sakai Katana to maximum level at a blacksmith.",
+      "walkthrough": "Collect Supplies, Iron, Steel, and Gold from Mongol camps and the world. Visit a blacksmith and upgrade your sword through all tiers. Supplies are the main bottleneck."
+    },
+    {
+      "id": "bronze-022",
+      "name": "A Charming Man",
+      "description": "Equip a charm in all 6 slots",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Equip charms in all 6 charm slots. Unlock slots by completing Inari Shrines.",
+      "walkthrough": "You start with 2 charm slots. Complete all 49 Inari Shrines to unlock all 6 slots. Then simply equip any charms you've collected (from shrines, quests, and exploration).",
+      "prerequisites": [
+        "Complete all 49 Inari Shrines"
+      ]
+    },
+    {
+      "id": "bronze-023",
+      "name": "Gifted",
+      "description": "Collect 10 gifts",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect 10 gift items from altars throughout Tsushima.",
+      "walkthrough": "Gifts appear at small altars, often near points of interest. More gifts become available as the story progresses. You'll find plenty while exploring."
+    },
+    {
+      "id": "bronze-024",
+      "name": "Slay",
+      "description": "Acquire 30 pieces of Vanity Gear",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect 30 vanity items (cosmetics that don't affect gameplay).",
+      "walkthrough": "Vanity gear includes sword kits, headbands, hats, masks, and saddles. Found at Pillars of Honor, Haiku locations, merchants, and as quest rewards. Collecting from Pillars of Honor is the fastest method."
+    },
+    {
+      "id": "bronze-025",
+      "name": "Light the Way",
+      "description": "Rekindle all the lighthouses of Tsushima",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Light all 8 lighthouses across the island.",
+      "walkthrough": "Lighthouses are tall towers along the coast. Climb to the top and interact with the brazier to light them. They're visible from a distance and marked once discovered.",
+      "checklist": [
+        {
+          "id": "light-1",
+          "label": "Lighthouse 1",
+          "location": "Izuhara",
+          "notes": null
+        },
+        {
+          "id": "light-2",
+          "label": "Lighthouse 2",
+          "location": "Izuhara",
+          "notes": null
+        },
+        {
+          "id": "light-3",
+          "label": "Lighthouse 3",
+          "location": "Izuhara",
+          "notes": null
+        },
+        {
+          "id": "light-4",
+          "label": "Lighthouse 4",
+          "location": "Toyotama",
+          "notes": null
+        },
+        {
+          "id": "light-5",
+          "label": "Lighthouse 5",
+          "location": "Toyotama",
+          "notes": null
+        },
+        {
+          "id": "light-6",
+          "label": "Lighthouse 6",
+          "location": "Toyotama",
+          "notes": null
+        },
+        {
+          "id": "light-7",
+          "label": "Lighthouse 7",
+          "location": "Kamiagata",
+          "notes": null
+        },
+        {
+          "id": "light-8",
+          "label": "Lighthouse 8",
+          "location": "Kamiagata",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "bronze-026",
+      "name": "Den of Thieves",
+      "description": "Discover Umugi Cove",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks automatically during Act 2 in the 'A Message in Fire' mission."
+    },
+    {
+      "id": "bronze-027",
+      "name": "Favor of the Kami",
+      "description": "Find and honor all Shinto Shrines on Tsushima",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete all 16 Shinto Shrine platforming challenges.",
+      "walkthrough": "Shinto Shrines involve climbing/platforming to reach a shrine at the top. Each rewards a powerful charm. Use Guiding Wind to track them.",
+      "checklist": [
+        {
+          "id": "shrine-izuhara",
+          "label": "Complete 6 shrines in Izuhara",
+          "location": "Act 1 region",
+          "notes": null
+        },
+        {
+          "id": "shrine-toyotama",
+          "label": "Complete 5 shrines in Toyotama",
+          "location": "Act 2 region",
+          "notes": null
+        },
+        {
+          "id": "shrine-kamiagata",
+          "label": "Complete 5 shrines in Kamiagata",
+          "location": "Act 3 region",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "bronze-028",
+      "name": "Honor the Unseen",
+      "description": "Bow to 10 hidden altars across Tsushima",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find and bow at 10 hidden altars. These are NOT marked on the map.",
+      "walkthrough": "Hidden altars are small shrines tucked away in scenic spots. When near one, you'll get a prompt to bow (swipe down on touchpad). Look near cliff edges, waterfalls, and beautiful viewpoints."
+    },
+    {
+      "id": "bronze-029",
+      "name": "Lost and Found",
+      "description": "Discover a Pillar of Honor and collect its Sword Kit",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find any 1 of the 23 Pillars of Honor and collect the sword kit.",
+      "walkthrough": "Pillars of Honor are stone monuments scattered across the island. Each contains a sword kit cosmetic. You only need to find one for the trophy."
+    },
+    {
+      "id": "bronze-030",
+      "name": "Monochrome Masters",
+      "description": "Purchase an item from the Black and White Dye Merchants",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Buy any item from both the Black Dye Merchant and the White Dye Merchant.",
+      "walkthrough": "Find both hidden merchants: Black Dye Merchant is in Umugi Cove (Act 2 area), White Dye Merchant is in a Kamiagata village. Buy any dye from each."
+    },
+    {
+      "id": "bronze-031",
+      "name": "Dirge of the Fallen Forge",
+      "description": "Play the Lament of the Storm at a friend's grave",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect 5 Singing Crickets to learn the song, then play it at Taka's grave after the story event.",
+      "walkthrough": "Singing Crickets are found in cemeteries and near graves (listen for chirping). After collecting 5, you learn 'Lament of the Storm'. After a certain story event, visit Taka's grave and play the song.",
+      "prerequisites": [
+        "5 Singing Crickets",
+        "Complete relevant story mission"
+      ]
+    },
+    {
+      "id": "bronze-032",
+      "name": "A Moment in Time",
+      "description": "Personalize a scene in Photo Mode",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Enter Photo Mode and add any personalization element.",
+      "walkthrough": "Press right on the d-pad to enter Photo Mode. Press up to access personalization options (particles, weather, time of day, music). Change any setting and the trophy unlocks."
+    },
+    {
+      "id": "bronze-033",
+      "name": "Avid Reader",
+      "description": "Collect 20 Records",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect 20 of the 40 Record collectibles scattered throughout the world.",
+      "walkthrough": "Records are scrolls found in Mongol camps, villages, and points of interest. They provide lore about the invasion. You'll find plenty while liberating camps."
+    },
+    {
+      "id": "bronze-034",
+      "name": "Know Your Enemy",
+      "description": "Collect 20 Mongol Artifacts",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect 20 of the 50 Mongol Artifact collectibles.",
+      "walkthrough": "Mongol Artifacts are found in Mongol camps and tents. They tell the story from the Mongol perspective. You'll collect many while liberating territories."
+    },
+    {
+      "id": "bronze-035",
+      "name": "Hero of the People",
+      "description": "Liberate 12 occupied areas in Izuhara",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Liberate 12 of the 24 Mongol-occupied areas in the Izuhara region (Act 1)."
+    },
+    {
+      "id": "bronze-036",
+      "name": "A Fight For The Isle",
+      "description": "Liberate all occupied areas in Izuhara",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Liberate all 24 Mongol-occupied areas in the Izuhara region."
+    },
+    {
+      "id": "bronze-037",
+      "name": "Good Riddance",
+      "description": "Liberate 8 occupied areas in Toyotama",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Liberate 8 of the 17 Mongol-occupied areas in the Toyotama region (Act 2)."
+    },
+    {
+      "id": "bronze-038",
+      "name": "Securing Sanctuary",
+      "description": "Liberate all occupied areas in Toyotama",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Liberate all 17 Mongol-occupied areas in the Toyotama region."
+    },
+    {
+      "id": "bronze-039",
+      "name": "Mass Eviction",
+      "description": "Liberate 7 occupied areas in Kamiagata",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Liberate 7 of the 15 Mongol-occupied areas in the Kamiagata region (Act 3)."
+    },
+    {
+      "id": "bronze-040",
+      "name": "A New Safe Haven",
+      "description": "Liberate all occupied areas in Kamiagata",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Liberate all 15 Mongol-occupied areas in the Kamiagata region."
+    }
+  ],
+  "suggestedOrder": [
+    {
+      "phase": "Act 1: Izuhara",
+      "description": "Complete the story and liberate camps as you explore. Start character tales (Masako, Ishikawa, Yuna). Equip Charm of Inari early for bonus supplies.",
+      "trophyIds": [
+        "bronze-001",
+        "bronze-002",
+        "bronze-003",
+        "bronze-004",
+        "bronze-005",
+        "bronze-035"
+      ]
+    },
+    {
+      "phase": "Act 2: Toyotama",
+      "description": "Continue story and character tales. Meet Norio. Start Mythic Tales for powerful abilities. Get 'Have a Nice Fall' while enemies still spawn.",
+      "trophyIds": [
+        "bronze-006",
+        "bronze-007",
+        "bronze-008",
+        "bronze-026",
+        "silver-006",
+        "bronze-037"
+      ]
+    },
+    {
+      "phase": "Act 3: Kamiagata",
+      "description": "Complete the main story and all character tales. Finish remaining Mythic Tales.",
+      "trophyIds": [
+        "bronze-009",
+        "bronze-010",
+        "bronze-011",
+        "gold-001",
+        "silver-001",
+        "silver-002",
+        "silver-003",
+        "silver-004",
+        "silver-005",
+        "bronze-039"
+      ]
+    },
+    {
+      "phase": "Cleanup: Liberation",
+      "description": "Liberate all remaining Mongol territories across all three regions.",
+      "trophyIds": [
+        "bronze-036",
+        "bronze-038",
+        "bronze-040",
+        "silver-008"
+      ]
+    },
+    {
+      "phase": "Cleanup: Collectibles",
+      "description": "Use Guiding Wind to find all shrines, hot springs, haiku, bamboo strikes, and Inari shrines.",
+      "trophyIds": [
+        "silver-009",
+        "bronze-022",
+        "bronze-025",
+        "bronze-027",
+        "bronze-028",
+        "bronze-029"
+      ]
+    },
+    {
+      "phase": "Cleanup: Tales & Misc",
+      "description": "Complete remaining Tales of Tsushima and miscellaneous trophies.",
+      "trophyIds": [
+        "gold-002",
+        "bronze-030",
+        "bronze-031",
+        "bronze-032",
+        "bronze-033",
+        "bronze-034",
+        "silver-007"
+      ]
+    },
+    {
+      "phase": "Cleanup: Combat",
+      "description": "Finish any remaining combat-related trophies.",
+      "trophyIds": [
+        "bronze-012",
+        "bronze-013",
+        "bronze-014",
+        "bronze-015",
+        "bronze-016",
+        "bronze-017",
+        "bronze-019",
+        "bronze-020",
+        "bronze-021"
+      ]
+    },
+    {
+      "phase": "Platinum",
+      "description": "With everything complete, the platinum is yours!",
+      "trophyIds": [
+        "platinum-001"
+      ]
+    }
+  ],
+  "coverImage": "https://media.rawg.io/media/games/f24/f2493ea338fe7bd3c7d73750a85a0959.jpeg",
+  "rawgId": 58550,
+  "rawgSlug": "ghost-of-tsushima"
+}

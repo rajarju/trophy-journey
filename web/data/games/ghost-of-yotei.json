@@ -1,0 +1,648 @@
+{
+  "slug": "ghost-of-yotei",
+  "title": "Ghost of Yotei",
+  "platform": "PS5",
+  "metadata": {
+    "estimatedTime": "50-70 hours",
+    "difficulty": "3/10",
+    "playthroughsRequired": 1,
+    "missableTrophies": 0,
+    "onlineRequired": false
+  },
+  "journeyIntro": {
+    "overview": "Ghost of Yotei follows Atsu, a new protagonist in 1603 feudal Japan set around Mount Yotei in Ezo (modern-day Hokkaido). The game features new weapons (yari, kusarigama, odachi), a wolf companion, and a vast open world with 119 quests. Trophy hunters will find a familiar but expanded experience from Ghost of Tsushima.",
+    "recommendedApproach": "Play through the story on Casual difficulty while exploring naturally. Complete Sensei Tales early to unlock all weapon types. Use your wolf companion to find collectibles. After the story, use the map to systematically clear each region.",
+    "warnings": [
+      "No missable trophies - everything available in post-game free roam",
+      "Can be completed on Casual difficulty with all accessibility features",
+      "Only need 30 of 61 Altars of Reflection for the trophy",
+      "Quests cannot be replayed except in New Game+",
+      "For platinum you need ~85% completion - not all collectibles required"
+    ]
+  },
+  "trophies": [
+    {
+      "id": "platinum-001",
+      "name": "Legendary Onryō",
+      "description": "Obtain all trophies",
+      "type": "platinum",
+      "isMissable": false,
+      "guide": "Earn all other 53 trophies to unlock the platinum. Requires approximately 85% completion - not everything needs to be collected.",
+      "walkthrough": "Focus on completing all bounties (31), camps (22), and the main collectibles. You only need 30 of 61 Altars. No missables means you can clean up anything after the story."
+    },
+    {
+      "id": "gold-001",
+      "name": "The Onryō Rests",
+      "description": "Find a future beyond the hunt",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks automatically after completing the main story."
+    },
+    {
+      "id": "gold-002",
+      "name": "Master Bounty Hunter",
+      "description": "Complete all Bounties",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Complete all 31 bounty quests throughout Ezo. Bounties are combat-focused side missions.",
+      "walkthrough": "Bounties unlock as you progress through the story and explore. They involve tracking and eliminating specific targets. Check the quest log for available bounties in each region."
+    },
+    {
+      "id": "silver-001",
+      "name": "Way of the Yari",
+      "description": "Help defend Master Takahashi's dojo in the final battle",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 3 Sensei Tales for Takahashi's yari (spear) dojo, culminating in a defense battle.",
+      "walkthrough": "The yari is a spear weapon new to the Ghost series. Find Takahashi's dojo and complete his questline to master the weapon and defend the dojo.",
+      "checklist": [
+        {
+          "id": "yari-1",
+          "label": "Sensei Tale 1: Introduction to Yari",
+          "location": "Takahashi's Dojo",
+          "notes": "Learn basics"
+        },
+        {
+          "id": "yari-2",
+          "label": "Sensei Tale 2: Advanced Techniques",
+          "location": "Takahashi's Dojo",
+          "notes": null
+        },
+        {
+          "id": "yari-3",
+          "label": "Sensei Tale 3: Final Defense",
+          "location": "Takahashi's Dojo",
+          "notes": "Defend the dojo"
+        }
+      ]
+    },
+    {
+      "id": "silver-002",
+      "name": "Way of the Kusarigama",
+      "description": "Help defend Master Enomoto's dojo in the final battle",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 3 Sensei Tales for Enomoto's kusarigama (chain-sickle) dojo.",
+      "walkthrough": "The kusarigama is a chain weapon with a sickle. Find Enomoto's dojo and complete his questline to unlock this versatile mid-range weapon.",
+      "checklist": [
+        {
+          "id": "kusari-1",
+          "label": "Sensei Tale 1: Introduction to Kusarigama",
+          "location": "Enomoto's Dojo",
+          "notes": "Learn basics"
+        },
+        {
+          "id": "kusari-2",
+          "label": "Sensei Tale 2: Advanced Techniques",
+          "location": "Enomoto's Dojo",
+          "notes": null
+        },
+        {
+          "id": "kusari-3",
+          "label": "Sensei Tale 3: Final Defense",
+          "location": "Enomoto's Dojo",
+          "notes": "Defend the dojo"
+        }
+      ]
+    },
+    {
+      "id": "silver-003",
+      "name": "Way of the Odachi",
+      "description": "Help defend Master Yoshida's dojo in the final battle",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all 3 Sensei Tales for Yoshida's odachi (great sword) dojo.",
+      "walkthrough": "The odachi is a large two-handed sword with powerful sweeping attacks. Complete Yoshida's questline to master this heavy-hitting weapon.",
+      "checklist": [
+        {
+          "id": "odachi-1",
+          "label": "Sensei Tale 1: Introduction to Odachi",
+          "location": "Yoshida's Dojo",
+          "notes": "Learn basics"
+        },
+        {
+          "id": "odachi-2",
+          "label": "Sensei Tale 2: Advanced Techniques",
+          "location": "Yoshida's Dojo",
+          "notes": null
+        },
+        {
+          "id": "odachi-3",
+          "label": "Sensei Tale 3: Final Defense",
+          "location": "Yoshida's Dojo",
+          "notes": "Defend the dojo"
+        }
+      ]
+    },
+    {
+      "id": "silver-004",
+      "name": "For All Occasions",
+      "description": "Acquire all Armor",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Collect all 12 armor sets in the game.",
+      "walkthrough": "Armor is obtained through story progression, Mythic Tales, side quests, and exploration. Some armor requires completing specific questlines."
+    },
+    {
+      "id": "silver-005",
+      "name": "Body, Mind, and Spirit",
+      "description": "Complete all Bamboo Strikes, Shrine Climbs, and Hot Springs",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Find and complete all meditation/training activities across Ezo.",
+      "walkthrough": "Similar to Ghost of Tsushima - Bamboo Strikes test reflexes, Shrine Climbs are platforming challenges, Hot Springs increase health. Use the map to track completion."
+    },
+    {
+      "id": "silver-006",
+      "name": "Moments of Reflection",
+      "description": "Find 30 Altars of Reflection",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Discover and interact with 30 of the 61 Altars of Reflection scattered across Ezo.",
+      "walkthrough": "Altars are small shrines in scenic locations. You only need 30 of 61, so you don't need to find them all. Your wolf companion can help locate nearby points of interest."
+    },
+    {
+      "id": "silver-007",
+      "name": "For the Living",
+      "description": "Rid Ezo of all Yōtei Six Camps",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Liberate all 22 Yōtei Six enemy camps across Ezo.",
+      "walkthrough": "Camps are enemy strongholds similar to Mongol camps in Tsushima. Clear all enemies and complete the objective to liberate each camp. They appear on the map as you explore."
+    },
+    {
+      "id": "bronze-001",
+      "name": "The Snake",
+      "description": "Complete the first tale of the Yōtei Six",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing the first main tale targeting one of the Yōtei Six antagonists."
+    },
+    {
+      "id": "bronze-002",
+      "name": "The Oni",
+      "description": "Complete the second tale of the Yōtei Six",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing the second main tale."
+    },
+    {
+      "id": "bronze-003",
+      "name": "The Kitsune",
+      "description": "Complete the third tale of the Yōtei Six",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing the third main tale."
+    },
+    {
+      "id": "bronze-004",
+      "name": "The Dragon",
+      "description": "Complete the fourth tale of the Yōtei Six",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing the fourth main tale."
+    },
+    {
+      "id": "bronze-005",
+      "name": "The Spider",
+      "description": "Complete the fifth tale of the Yōtei Six",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks after completing the fifth main tale."
+    },
+    {
+      "id": "bronze-006",
+      "name": "The Woman Behind the Mask",
+      "description": "Uncover the truth about the final member of the Yōtei Six",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks during the climax of the main story."
+    },
+    {
+      "id": "bronze-007",
+      "name": "Twin Wolves",
+      "description": "Form an unbreakable bond",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks when Atsu fully bonds with her wolf companion."
+    },
+    {
+      "id": "bronze-008",
+      "name": "Wrath of the Onryō",
+      "description": "Embrace your destiny as the Onryō",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Story-related trophy. Unlocks during a pivotal story moment."
+    },
+    {
+      "id": "bronze-009",
+      "name": "Trickster Fox",
+      "description": "Solve all Puzzle Boxes",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find and solve all 9 Puzzle Boxes hidden throughout Ezo.",
+      "walkthrough": "Puzzle Boxes are small mechanical puzzles that reward cosmetics or resources. They're hidden in buildings and points of interest."
+    },
+    {
+      "id": "bronze-010",
+      "name": "An Artist's Eye",
+      "description": "Collect all Sumi-e paintings",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find all 15 Sumi-e (ink wash) paintings scattered across Ezo.",
+      "walkthrough": "Sumi-e paintings are collectible artworks found in scenic locations and buildings. They provide insight into the world's history."
+    },
+    {
+      "id": "bronze-011",
+      "name": "Guardian of Inari",
+      "description": "Discover all Fox Dens",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find all 11 Fox Dens across Ezo.",
+      "walkthrough": "Fox Dens are small shrines where foxes lead you, similar to Inari Shrines in Tsushima. They reward charms and other bonuses."
+    },
+    {
+      "id": "bronze-012",
+      "name": "Like Mother, Like Daughter",
+      "description": "Learn all Shamisen Songs",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect all 8 Shamisen Songs throughout Ezo.",
+      "walkthrough": "Shamisen Songs are musical collectibles that Atsu can learn and play. Find musicians or song scrolls to expand your repertoire."
+    },
+    {
+      "id": "bronze-013",
+      "name": "Wolves of Ezo",
+      "description": "Find all Wolf Dens",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Discover all 10 Wolf Dens in the wilderness.",
+      "walkthrough": "Wolf Dens are locations where wild wolves gather. Your companion wolf can help you locate them. They may provide upgrades or lore."
+    },
+    {
+      "id": "bronze-014",
+      "name": "Child of the Mountain",
+      "description": "Solve all Mountain Reliquary puzzles",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete all 5 Mountain Reliquary puzzles.",
+      "walkthrough": "Mountain Reliquaries are larger puzzle areas found on Mount Yotei and surrounding peaks. They involve environmental puzzles and platforming."
+    },
+    {
+      "id": "bronze-015",
+      "name": "Speaking with the Land",
+      "description": "Discover all Special Places",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find all 10 Special Places - unique scenic locations with significance.",
+      "walkthrough": "Special Places are marked locations with particular beauty or historical importance. Visit and interact to appreciate the scenery and earn this trophy."
+    },
+    {
+      "id": "bronze-016",
+      "name": "Tools of a Warrior",
+      "description": "Acquire all melee weapons",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Obtain all 5 melee weapon types: katana, yari, kusarigama, odachi, and one more.",
+      "walkthrough": "Weapons unlock through story progression and completing Sensei Tales. Complete all dojo questlines to ensure you have every weapon."
+    },
+    {
+      "id": "bronze-017",
+      "name": "Take Aim",
+      "description": "Acquire all ranged weapons",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Obtain all 4 ranged weapon types including bows and potentially new additions.",
+      "walkthrough": "Ranged weapons are found through story progression, quests, and exploration. Some may require completing specific side content."
+    },
+    {
+      "id": "bronze-018",
+      "name": "Quick Draw",
+      "description": "Acquire all quickfire weapons",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect all 5 quickfire (throwable) weapon types like kunai, bombs, etc.",
+      "walkthrough": "Similar to Ghost Weapons in Tsushima. Purchase or find all quickfire weapons through skill trees, quests, and merchants."
+    },
+    {
+      "id": "bronze-019",
+      "name": "Inheritance",
+      "description": "Equip your parents' charms",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Find and equip the special charms that belonged to Atsu's parents.",
+      "walkthrough": "These story-related charms are likely obtained through main quests or specific side content related to Atsu's backstory."
+    },
+    {
+      "id": "bronze-020",
+      "name": "Purely Decorative",
+      "description": "Acquire 30 vanity items",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect 30 cosmetic items including armor dyes, headgear, masks, and weapon skins.",
+      "walkthrough": "Vanity items are found in chests, purchased from merchants, and rewarded for completing activities. You'll naturally collect many while exploring."
+    },
+    {
+      "id": "bronze-021",
+      "name": "From One Ghost to Another",
+      "description": "Perform a specific combat technique",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Execute a particular combat move, likely related to Ghost-style tactics.",
+      "walkthrough": "This appears to reference stealth or assassination techniques. Master the ghost combat style through practice."
+    },
+    {
+      "id": "bronze-022",
+      "name": "Sitturaynu",
+      "description": "Work in harmony with your wolf companion",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Perform a coordinated attack or ability with your wolf companion.",
+      "walkthrough": "The wolf companion is a major new feature. Learn to use companion commands and execute team attacks in combat."
+    },
+    {
+      "id": "bronze-023",
+      "name": "A Moment to Breathe",
+      "description": "Take a moment of calm during combat",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use a specific calming or recovery ability during battle.",
+      "walkthrough": "Likely involves using a Resolve-based healing or focus ability in the middle of combat."
+    },
+    {
+      "id": "bronze-024",
+      "name": "Unrivaled",
+      "description": "Win every duel",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete all one-on-one duels in the game.",
+      "walkthrough": "Duels appear in story missions and side content. Focus on parrying and counterattacking. All duels can be retried if failed."
+    },
+    {
+      "id": "bronze-025",
+      "name": "Kunai Defender",
+      "description": "Deflect projectiles with perfect timing",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Deflect a certain number of enemy projectiles using parry timing.",
+      "walkthrough": "When enemies throw projectiles, time your parry (L1) perfectly to deflect them. Practice against archers and bomb throwers."
+    },
+    {
+      "id": "bronze-026",
+      "name": "Gift for Destruction",
+      "description": "Destroy objects using explosive techniques",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use explosives or fire to destroy a certain number of environmental objects or enemies.",
+      "walkthrough": "Use sticky bombs, fire arrows, or other explosive tools on destructible objects and enemy groups."
+    },
+    {
+      "id": "bronze-027",
+      "name": "Naming a Friend",
+      "description": "Give your wolf companion a name",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Progress the story or complete a quest that allows you to officially name your wolf.",
+      "walkthrough": "This likely unlocks through story progression as your bond with the wolf deepens."
+    },
+    {
+      "id": "bronze-028",
+      "name": "From the Hip",
+      "description": "Perform quick-draw kills in rapid succession",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Kill multiple enemies quickly using standoff or quick-draw techniques.",
+      "walkthrough": "Enter a standoff and chain multiple kills, or use a similar rapid-kill mechanic new to Yotei."
+    },
+    {
+      "id": "bronze-029",
+      "name": "The Owl's Talon",
+      "description": "Master aerial combat techniques",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Perform a certain number of aerial attacks or kills.",
+      "walkthrough": "Jump and attack enemies from above. Look for elevated positions in combat areas for aerial opportunities."
+    },
+    {
+      "id": "bronze-030",
+      "name": "Sayonara",
+      "description": "Defeat enemies with a dramatic finishing move",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Perform execution or finishing moves on a number of enemies.",
+      "walkthrough": "When enemies are staggered or low health, you may get a prompt for a cinematic kill. Execute these finishers."
+    },
+    {
+      "id": "bronze-031",
+      "name": "You Dropped This",
+      "description": "Use enemy weapons against them",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Pick up and use dropped enemy weapons to kill enemies.",
+      "walkthrough": "When enemies drop their weapons, pick them up and use them in combat. Throw spears or use fallen enemy swords."
+    },
+    {
+      "id": "bronze-032",
+      "name": "The Horror",
+      "description": "Terrify enemies using ghost tactics",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Cause enemies to flee in terror using fear-inducing techniques.",
+      "walkthrough": "Use Ghost Stance equivalent, poison, or brutal kills to terrify nearby enemies and make them flee."
+    },
+    {
+      "id": "bronze-033",
+      "name": "Wolf Bait",
+      "description": "Use your wolf to distract enemies",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Command your wolf to distract enemies while you attack.",
+      "walkthrough": "Use wolf companion commands to draw enemy attention, then attack from stealth or flank them."
+    },
+    {
+      "id": "bronze-034",
+      "name": "Two as One",
+      "description": "Perform a synchronized attack with your wolf",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Execute a coordinated double attack with your wolf companion.",
+      "walkthrough": "Build up your bond with the wolf to unlock synchronized attack abilities. Trigger them in combat for devastating combo attacks."
+    },
+    {
+      "id": "bronze-035",
+      "name": "Brush Fire",
+      "description": "Use fire tactically in combat",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Set multiple enemies or areas on fire using fire-based weapons or abilities.",
+      "walkthrough": "Use fire arrows, fire bombs, or environmental fire to burn enemies. Look for oil puddles and dry grass."
+    },
+    {
+      "id": "bronze-036",
+      "name": "Sake Flight",
+      "description": "Sample sake at multiple locations",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Drink sake at different sake houses or breweries across Ezo.",
+      "walkthrough": "Find sake establishments in towns and villages. Interact to drink and learn about local brewing traditions."
+    },
+    {
+      "id": "bronze-037",
+      "name": "Very Persuasive",
+      "description": "Resolve conflicts through dialogue",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Successfully use dialogue options to resolve situations peacefully or gain advantages.",
+      "walkthrough": "Choose dialogue carefully in conversations. Some situations allow you to talk your way through rather than fight."
+    },
+    {
+      "id": "bronze-038",
+      "name": "Charming",
+      "description": "Equip charms in all available slots",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Fill all your charm slots with equipped charms.",
+      "walkthrough": "Unlock charm slots through progression and find charms via Fox Dens, shrines, and quests. Equip a charm in every slot."
+    },
+    {
+      "id": "bronze-039",
+      "name": "Like Father, Like Daughter",
+      "description": "Honor your father's memory",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete a specific activity or quest related to Atsu's father.",
+      "walkthrough": "This likely involves visiting a memorial, completing a family-related quest, or using your father's equipment."
+    },
+    {
+      "id": "bronze-040",
+      "name": "Gifts for a Ghost",
+      "description": "Receive gifts from grateful villagers",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Receive a certain number of gifts from NPCs you've helped.",
+      "walkthrough": "Help villagers and complete side quests. Grateful NPCs will reward you with gifts. Collect enough to unlock the trophy."
+    },
+    {
+      "id": "bronze-041",
+      "name": "Memento",
+      "description": "Keep a meaningful item",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Collect or keep a specific memento item from the story.",
+      "walkthrough": "Pay attention to story moments where you can keep meaningful items. This is likely story-related."
+    },
+    {
+      "id": "bronze-042",
+      "name": "Good with Coins",
+      "description": "Become wealthy through trade",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Accumulate a certain amount of currency through selling items or completing jobs.",
+      "walkthrough": "Sell unwanted items to merchants, complete bounties, and save your money. The threshold is likely reasonable through normal play."
+    },
+    {
+      "id": "bronze-043",
+      "name": "Fireside Performance",
+      "description": "Play music at a campfire",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Play your shamisen at a campfire location.",
+      "walkthrough": "Find a campfire and interact to rest. You should have an option to play the shamisen, similar to the flute in Tsushima."
+    },
+    {
+      "id": "bronze-044",
+      "name": "Spear Fishing",
+      "description": "Spear 5 fish with the yari",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use your yari (spear) to catch 5 fish from rivers or the ocean.",
+      "walkthrough": "Find bodies of water with fish. Equip the yari and attack fish swimming in the water. You need to successfully spear 5 fish total."
+    }
+  ],
+  "suggestedOrder": [
+    {
+      "phase": "Early Game: Learn the Ropes",
+      "description": "Complete introductory story missions and start Sensei Tales to unlock all weapon types. Bond with your wolf companion.",
+      "trophyIds": [
+        "bronze-001",
+        "bronze-002",
+        "bronze-027",
+        "bronze-016"
+      ]
+    },
+    {
+      "phase": "Mid Game: The Hunt",
+      "description": "Progress through the main Yōtei Six storyline. Complete dojo questlines and start bounty hunting.",
+      "trophyIds": [
+        "bronze-003",
+        "bronze-004",
+        "bronze-005",
+        "silver-001",
+        "silver-002",
+        "silver-003"
+      ]
+    },
+    {
+      "phase": "Late Game: Endgame",
+      "description": "Complete the main story and remaining Mythic Tales. Clear all enemy camps.",
+      "trophyIds": [
+        "bronze-006",
+        "bronze-007",
+        "bronze-008",
+        "gold-001",
+        "silver-007"
+      ]
+    },
+    {
+      "phase": "Cleanup: Bounties",
+      "description": "Finish all 31 bounty quests across Ezo.",
+      "trophyIds": [
+        "gold-002"
+      ]
+    },
+    {
+      "phase": "Cleanup: Collectibles",
+      "description": "Use your wolf and the map to find remaining collectibles. Only need 30 of 61 Altars.",
+      "trophyIds": [
+        "bronze-009",
+        "bronze-010",
+        "bronze-011",
+        "bronze-012",
+        "bronze-013",
+        "bronze-014",
+        "bronze-015",
+        "silver-006"
+      ]
+    },
+    {
+      "phase": "Cleanup: Activities",
+      "description": "Complete all Bamboo Strikes, Shrine Climbs, Hot Springs, and gather remaining armor.",
+      "trophyIds": [
+        "silver-004",
+        "silver-005"
+      ]
+    },
+    {
+      "phase": "Cleanup: Combat & Misc",
+      "description": "Finish remaining combat-related trophies and miscellaneous activities.",
+      "trophyIds": [
+        "bronze-017",
+        "bronze-018",
+        "bronze-020",
+        "bronze-024",
+        "bronze-038",
+        "bronze-044"
+      ]
+    },
+    {
+      "phase": "Platinum",
+      "description": "With ~85% completion, the platinum is yours!",
+      "trophyIds": [
+        "platinum-001"
+      ]
+    }
+  ],
+  "coverImage": "https://media.rawg.io/media/games/30b/30b195c2321d763f807366967ffad793.jpg",
+  "rawgId": 989329,
+  "rawgSlug": "ghost-of-yotei"
+}
