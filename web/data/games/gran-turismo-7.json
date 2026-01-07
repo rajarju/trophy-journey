@@ -1,0 +1,690 @@
+{
+  "slug": "gran-turismo-7",
+  "title": "Gran Turismo 7",
+  "platform": "PS4/PS5",
+  "metadata": {
+    "estimatedTime": "80-150 hours",
+    "difficulty": "4/10",
+    "playthroughsRequired": 1,
+    "missableTrophies": 0,
+    "onlineRequired": true
+  },
+  "journeyIntro": {
+    "overview": "Gran Turismo 7 is a racing simulation with 54 trophies focused on career progression, license tests, circuit experiences, and extensive driving challenges. The platinum requires patience due to grinding for credits, mileage trophies, and waiting for legendary cars to appear in the rotating shop.",
+    "recommendedApproach": "Start with the Cafe Menu Books to unlock content and earn cars. Complete all license tests for gold. Work on circuit experiences alongside the career. The legendary cars and mileage trophies will take the longest - start Sport Mode races early to accumulate online distance.",
+    "warnings": [
+      "Online connection required for most features",
+      "Three Legendary Cars trophy requires specific cars that rotate in the Legend shop - can take weeks",
+      "Mileage trophies require significant grinding (Route 66 = 2,451 miles)",
+      "Online mileage trophies require playing with others (The Autobahn = 8,197 miles combined)",
+      "Sport Mode requires 50 completed races"
+    ]
+  },
+  "trophies": [
+    {
+      "id": "platinum-001",
+      "name": "Gran Turismo Platinum Trophy",
+      "description": "Unlock all other trophies in the game",
+      "type": "platinum",
+      "isMissable": false,
+      "guide": "Earn all 53 other trophies. The longest requirements are the legendary cars, mileage trophies, and license gold medals.",
+      "walkthrough": "Focus on completing the Cafe menus first to unlock cars and tracks. Work on licenses and circuit experiences. Grind credits for legendary cars. The online mileage trophies will take the longest."
+    },
+    {
+      "id": "gold-001",
+      "name": "Hard Work Pays Off",
+      "description": "Earned gold in all licenses",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Achieve gold rank in every license test across all license categories.",
+      "walkthrough": "License tests have strict time requirements. Practice each test and learn the optimal racing line. You can retry unlimited times. Some tests are very challenging but all are achievable with practice.",
+      "checklist": [
+        {
+          "id": "license-b",
+          "label": "Gold all B License tests",
+          "location": "License Center",
+          "notes": "Beginner tests"
+        },
+        {
+          "id": "license-a",
+          "label": "Gold all A License tests",
+          "location": "License Center",
+          "notes": "Intermediate"
+        },
+        {
+          "id": "license-ib",
+          "label": "Gold all International B tests",
+          "location": "License Center",
+          "notes": null
+        },
+        {
+          "id": "license-ia",
+          "label": "Gold all International A tests",
+          "location": "License Center",
+          "notes": null
+        },
+        {
+          "id": "license-s",
+          "label": "Gold all S License tests",
+          "location": "License Center",
+          "notes": "Most difficult"
+        }
+      ]
+    },
+    {
+      "id": "gold-002",
+      "name": "Finale",
+      "description": "Fulfilled requirements for ending",
+      "type": "gold",
+      "isMissable": false,
+      "guide": "Complete all 39 Menu Books in the Cafe to finish the main career mode.",
+      "walkthrough": "Menu Books are the main progression system. Each requires collecting specific cars by winning races or purchasing them. Complete all 39 to see the credits roll."
+    },
+    {
+      "id": "silver-001",
+      "name": "Circuit Master",
+      "description": "Complete 15 tracks (all sectors) in Circuit Experience",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Complete all sectors on 15 different tracks in Circuit Experience mode.",
+      "walkthrough": "Circuit Experience teaches you each track sector by sector. Complete all sectors of a track to master it. You need 15 different tracks for this trophy."
+    },
+    {
+      "id": "silver-002",
+      "name": "Going the Distance Together: The Autobahn",
+      "description": "Driving with other players online, match the distance covered by the entire German Autobahn network (8,197 miles)",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Accumulate 8,197 miles (13,191 km) of combined online driving with other players.",
+      "walkthrough": "This counts your mileage when racing online with others in Sport Mode or lobbies. This is a long grind - start Sport Mode racing early and consistently."
+    },
+    {
+      "id": "silver-003",
+      "name": "Speed Archdemon",
+      "description": "Reach a speed of 373 mph",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Hit 373 mph (600 km/h) in any car. Requires the Tomahawk VGT on Special Stage Route X.",
+      "walkthrough": "Purchase the Dodge SRT Tomahawk VGT from Brand Central. Go to Special Stage Route X (unlocked through menus). Use the long straight and hit nitrous in 7th gear to break 373 mph.",
+      "prerequisites": [
+        "Dodge SRT Tomahawk VGT",
+        "Special Stage Route X unlocked"
+      ]
+    },
+    {
+      "id": "silver-004",
+      "name": "Three Legendary Cars",
+      "description": "Acquire three legendary race cars that were once destined to win 24 hour races",
+      "type": "silver",
+      "isMissable": false,
+      "guide": "Purchase the Ford Mark IV Race Car, Ferrari 330 P4 Race Car, and Jaguar XJ13 Race Car from the Legend Cars dealership.",
+      "walkthrough": "These three specific cars rotate in the Legend Cars shop. Check daily as they appear randomly. Total cost is approximately 25 million credits. This can take 1-6 weeks depending on rotation luck.",
+      "checklist": [
+        {
+          "id": "legend-ford",
+          "label": "Ford Mark IV Race Car '67",
+          "location": "Legend Cars",
+          "notes": "~4.6 million credits"
+        },
+        {
+          "id": "legend-ferrari",
+          "label": "Ferrari 330 P4 '67",
+          "location": "Legend Cars",
+          "notes": "~9 million credits"
+        },
+        {
+          "id": "legend-jaguar",
+          "label": "Jaguar XJ13 '66",
+          "location": "Legend Cars",
+          "notes": "~12 million credits"
+        }
+      ]
+    },
+    {
+      "id": "bronze-001",
+      "name": "Living Your Car Life",
+      "description": "Started the first menu",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Begin your first Menu Book in the Cafe. Unlocks at the very start of the game."
+    },
+    {
+      "id": "bronze-002",
+      "name": "Student of Motoring History",
+      "description": "Complete the first car collecting menu in Cafe mode",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete Menu Book #1 by collecting the required cars through races or purchases."
+    },
+    {
+      "id": "bronze-003",
+      "name": "A Taste of Tuning",
+      "description": "Buy and equip tuning parts",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase any tuning parts from GT Auto or Tuning Shop and install them on a car."
+    },
+    {
+      "id": "bronze-004",
+      "name": "A Bit of a Boost",
+      "description": "Purchase a turbo or supercharger 10 times",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Buy turbo or supercharger upgrades 10 times total across any cars.",
+      "walkthrough": "Can be done on the same car multiple times by selling and rebuying, or across multiple vehicles."
+    },
+    {
+      "id": "bronze-005",
+      "name": "Looking Good",
+      "description": "Buy and equip aerodynamic parts",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase and install aerodynamic parts (wings, splitters, etc.) on any car."
+    },
+    {
+      "id": "bronze-006",
+      "name": "Warning: Wide Load!",
+      "description": "Fit a wide body",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase and install a wide body kit on a compatible car from GT Auto."
+    },
+    {
+      "id": "bronze-007",
+      "name": "Toughening Up",
+      "description": "Increase a car's body rigidity 10 times",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase body rigidity upgrades 10 times from the Tuning Shop (not GT Auto restoration).",
+      "walkthrough": "Go to the Tuning Shop and buy the body rigidity upgrade for 10 different cars, or buy/sell/rebuy on fewer cars."
+    },
+    {
+      "id": "bronze-008",
+      "name": "Wheely Good Fun",
+      "description": "Buy 10 sets of wheels",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase 10 different wheel sets from GT Auto."
+    },
+    {
+      "id": "bronze-009",
+      "name": "Squeaky Clean",
+      "description": "Wash a car 10 times",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Use the car wash at GT Auto 10 times.",
+      "walkthrough": "After racing, cars get dirty. Visit GT Auto and wash your car 10 times total."
+    },
+    {
+      "id": "bronze-010",
+      "name": "Firm Favorite",
+      "description": "Buy the same car 10 times",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase the same car model 10 times.",
+      "walkthrough": "The cheapest option is the Racing Kart 125 Shifter from Gran Turismo in Brand Central - costs only 10,000 credits each. Buy it 10 times for 100,000 total.",
+      "farmingTip": "Racing Kart 125 Shifter from Gran Turismo brand - 10,000 credits each"
+    },
+    {
+      "id": "bronze-011",
+      "name": "Heavy Haulage",
+      "description": "Buy a pickup truck",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase any pickup truck from the dealerships.",
+      "walkthrough": "Several pickup trucks are available - check Toyota, Chevrolet, or Ford in Brand Central."
+    },
+    {
+      "id": "bronze-012",
+      "name": "Safety First",
+      "description": "Buy a safety car",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase the Mercedes-AMG GT Safety Car or similar official safety car."
+    },
+    {
+      "id": "bronze-013",
+      "name": "Let's Go Carbon Neutral!",
+      "description": "Buy an electric car",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase any electric vehicle from the dealerships.",
+      "walkthrough": "Options include Tesla, Porsche Taycan, or various other EVs in Brand Central."
+    },
+    {
+      "id": "bronze-014",
+      "name": "Living with a Legend",
+      "description": "Buy a car at the legends dealership",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Purchase any car from the Legend Cars dealership.",
+      "walkthrough": "Legend Cars features classic and rare vehicles. Prices vary from hundreds of thousands to millions. Buy any one car."
+    },
+    {
+      "id": "bronze-015",
+      "name": "Formula First Timer",
+      "description": "Drive a formula car",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Drive any open-wheel formula car in a race or time trial.",
+      "walkthrough": "You'll receive a Super Formula car through Menu Book progression, or can purchase one from Brand Central."
+    },
+    {
+      "id": "bronze-016",
+      "name": "Motor Mania",
+      "description": "Store at least 50 cars in your Garage",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Have 50 cars in your garage at the same time.",
+      "walkthrough": "Through Menu Book completion and purchases, you'll accumulate cars. Keep at least 50 in your garage."
+    },
+    {
+      "id": "bronze-017",
+      "name": "No Car, No Life",
+      "description": "Store at least 100 cars in your Garage",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Have 100 cars in your garage at the same time.",
+      "walkthrough": "After completing all Menu Books, you should have 80-85 cars. Purchase additional cheap cars to reach 100."
+    },
+    {
+      "id": "bronze-018",
+      "name": "Fully Licensed",
+      "description": "Earn all licenses",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Pass all license tests at any rank (bronze or better).",
+      "walkthrough": "Complete all tests in B, A, International B, International A, and S licenses. You just need to pass - gold not required for this trophy."
+    },
+    {
+      "id": "bronze-019",
+      "name": "Rain Royalty",
+      "description": "Acquire your rain license",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete the rain license tests that unlock during career progression."
+    },
+    {
+      "id": "bronze-020",
+      "name": "The First Step to Mastery",
+      "description": "Complete a track (all sectors) in Circuit Experience",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete all sectors of any one track in Circuit Experience mode."
+    },
+    {
+      "id": "bronze-021",
+      "name": "Circuit Apprentice",
+      "description": "Complete five tracks (all sectors) in Circuit Experience",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete all sectors on 5 different tracks in Circuit Experience."
+    },
+    {
+      "id": "bronze-022",
+      "name": "Done in 60 Seconds",
+      "description": "Drive a lap of the Tsukuba Circuit in under one minute",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete a lap of Tsukuba Circuit in under 60 seconds.",
+      "walkthrough": "Use a fast car (Gr.3 or better) and learn the track. A sub-60 lap requires clean driving through all corners. Practice in Time Trial mode."
+    },
+    {
+      "id": "bronze-023",
+      "name": "Smoking Hot",
+      "description": "Earn 10,000pts in Drift Trials",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Score 10,000 points in a single Drift Trial session.",
+      "walkthrough": "Use a rear-wheel drive car with good power. Enter a Drift Trial and chain drifts together without crashing to build up your score multiplier."
+    },
+    {
+      "id": "bronze-024",
+      "name": "Time Attacker",
+      "description": "Take part in 100 time trials",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete 100 time trial sessions across any tracks.",
+      "walkthrough": "This accumulates naturally while practicing for circuit experiences and license tests. Each time trial attempt counts."
+    },
+    {
+      "id": "bronze-025",
+      "name": "All-Rounder",
+      "description": "Win races on 10 different tracks",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Win at least one race on 10 different circuits.",
+      "walkthrough": "This unlocks naturally through Menu Book progression as you race on various tracks."
+    },
+    {
+      "id": "bronze-026",
+      "name": "Digging the Dirt",
+      "description": "Win 10 races on dirt tracks",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Win 10 races on dirt/rally courses.",
+      "walkthrough": "Dirt races appear in some Menu Books. You can also create custom races on dirt tracks in Free Run mode."
+    },
+    {
+      "id": "bronze-027",
+      "name": "Podium Fixture",
+      "description": "Finish on the podium ten times",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Finish in 1st, 2nd, or 3rd place in 10 races."
+    },
+    {
+      "id": "bronze-028",
+      "name": "Moving on Up",
+      "description": "Move up at least five positions in a single lap",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Pass 5 or more cars in one lap during a race.",
+      "walkthrough": "Start from the back of a grid in a race with enough cars. Overtake 5+ positions before completing the first lap."
+    },
+    {
+      "id": "bronze-029",
+      "name": "By A Whisker",
+      "description": "Win a race with a lead of 0.5 seconds or less",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Win a race with a margin of victory of 0.5 seconds or less.",
+      "walkthrough": "Slow down near the finish line to let AI catch up, then cross just ahead of them. Easier on shorter races."
+    },
+    {
+      "id": "bronze-030",
+      "name": "By A Country Mile",
+      "description": "Win with a lead of 10 seconds or more, in a race of at least two laps",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Win a race by more than 10 seconds in a race with 2+ laps.",
+      "walkthrough": "Use an overpowered car for the race class and build up a big lead over the AI."
+    },
+    {
+      "id": "bronze-031",
+      "name": "Clean Racer",
+      "description": "Complete a race without leaving the track or any collision",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Finish a race without going off-track or hitting any car/wall.",
+      "walkthrough": "Drive carefully in any race. Easier on a track you know well with fewer opponents."
+    },
+    {
+      "id": "bronze-032",
+      "name": "No Assistance Required!",
+      "description": "Complete a race without any assist setting",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Finish a race with all driving assists turned off.",
+      "walkthrough": "Disable traction control, ABS, stability management, and all other assists. Use a slower car on an easy track if needed."
+    },
+    {
+      "id": "bronze-033",
+      "name": "Fill Her Up",
+      "description": "Take a pitstop during a race which features fuel consumption, then fill your tank",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "In a race with fuel consumption enabled, make a pit stop and refuel.",
+      "walkthrough": "Create or find a race with fuel consumption enabled. Drive until you need fuel, then pit and fill up."
+    },
+    {
+      "id": "bronze-034",
+      "name": "New Treads",
+      "description": "Take a pitstop during a race and then change your tires",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Make a pit stop during a race and change your tire compound.",
+      "walkthrough": "In a race with tire wear enabled, pit and select a different tire compound (soft to medium, etc.)."
+    },
+    {
+      "id": "bronze-035",
+      "name": "Running on Empty",
+      "description": "Completely run out of fuel in a race which features fuel consumption",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Run your car completely out of fuel during a race.",
+      "walkthrough": "In a race with fuel consumption, don't pit and keep driving until you run dry. The car will slow to a crawl."
+    },
+    {
+      "id": "bronze-036",
+      "name": "Round and Round",
+      "description": "Drive 500 miles on oval tracks",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Accumulate 500 miles (805 km) of driving on oval circuits.",
+      "walkthrough": "Tracks like Blue Moon Bay Speedway and Daytona count. Can be done through races or free roaming."
+    },
+    {
+      "id": "bronze-037",
+      "name": "Going the Distance: Angeles Crest Highway",
+      "description": "Drive the length of the USA's Angeles Crest Highway (66 miles)",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Drive a total of 66 miles across all your gameplay."
+    },
+    {
+      "id": "bronze-038",
+      "name": "Going the Distance: Route 66",
+      "description": "Drive the length of the USA's Route 66 (2,451 miles)",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Drive a total of 2,451 miles (3,945 km) across all your gameplay.",
+      "walkthrough": "This is cumulative across all races and modes. Will take many hours of driving to achieve."
+    },
+    {
+      "id": "bronze-039",
+      "name": "Going the Distance: 24 Hours of Le Mans",
+      "description": "Drive the length of one complete 24 Hours of Le Mans race",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Drive the equivalent distance of a 24 Hours of Le Mans race (approximately 3,000+ miles)."
+    },
+    {
+      "id": "bronze-040",
+      "name": "Going the Distance Together: The Atlantic",
+      "description": "Driving with other players online, match the distance covered by the first ever non-stop Transatlantic flight (3,610 miles)",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Accumulate 3,610 miles (5,810 km) of combined online driving with other players.",
+      "walkthrough": "Race in Sport Mode or online lobbies. Your mileage when racing with others counts toward this."
+    },
+    {
+      "id": "bronze-041",
+      "name": "Join the 200-mph Club",
+      "description": "Reach a speed of 200 mph",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Hit 200 mph (322 km/h) in any car.",
+      "walkthrough": "Many cars can reach this speed. Use a fast car on a track with a long straight like Special Stage Route X."
+    },
+    {
+      "id": "bronze-042",
+      "name": "Speed Demon",
+      "description": "Reach a speed of 311 mph",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Hit 311 mph (500 km/h) in any car.",
+      "walkthrough": "Use the Dodge SRT Tomahawk VGT on Special Stage Route X. Use the long straight to build speed."
+    },
+    {
+      "id": "bronze-043",
+      "name": "Sport Mode Debut",
+      "description": "Finish a race in Sport Mode",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete any race in Sport Mode (online competitive racing)."
+    },
+    {
+      "id": "bronze-044",
+      "name": "In-depth Mastery",
+      "description": "Finish 50 races in Sport Mode",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Complete 50 races in Sport Mode.",
+      "walkthrough": "Participate in daily races in Sport Mode. You must finish the race - quitting early doesn't count."
+    },
+    {
+      "id": "bronze-045",
+      "name": "Snap-Happy",
+      "description": "Take 100 photos",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Take 100 photos using the in-game Scapes or Photo Mode.",
+      "walkthrough": "Use Scapes to photograph your cars. Each photo saved counts toward this total."
+    },
+    {
+      "id": "bronze-046",
+      "name": "Memento from Le Mans",
+      "description": "Take a photo of an Audi R18 TDI (Audi Sport Team Joest) on the Circuit de la Sarthe",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Photograph the specific Audi R18 TDI at Le Mans circuit in Scapes.",
+      "walkthrough": "Purchase the Audi R18 TDI (Audi Sport Team Joest) - note there are multiple R18 variants, you need the correct one (approx. 3 million credits). Take a photo at a Le Mans Scape location."
+    },
+    {
+      "id": "bronze-047",
+      "name": "Memento from the Nürburgring",
+      "description": "Take a photo of a BMW Gr.3 car on the Nürburgring",
+      "type": "bronze",
+      "isMissable": false,
+      "guide": "Photograph any BMW Gr.3 category car at a Nürburgring Scape location."
+    }
+  ],
+  "suggestedOrder": [
+    {
+      "phase": "Career Start",
+      "description": "Begin the Cafe Menu Books and get familiar with the game systems. Complete early menus to unlock tracks and earn starter cars.",
+      "trophyIds": [
+        "bronze-001",
+        "bronze-002",
+        "bronze-003"
+      ]
+    },
+    {
+      "phase": "License Tests",
+      "description": "Work through all license categories. Get at least bronze on everything first, then return for gold medals.",
+      "trophyIds": [
+        "bronze-018",
+        "bronze-019",
+        "gold-001"
+      ]
+    },
+    {
+      "phase": "Menu Book Completion",
+      "description": "Complete all 39 Menu Books in the Cafe. This unlocks most content and earns you 80+ cars.",
+      "trophyIds": [
+        "gold-002",
+        "bronze-016",
+        "bronze-017",
+        "bronze-025",
+        "bronze-027"
+      ]
+    },
+    {
+      "phase": "Circuit Experience",
+      "description": "Master tracks through Circuit Experience. Complete all sectors on 15+ tracks.",
+      "trophyIds": [
+        "bronze-020",
+        "bronze-021",
+        "silver-001",
+        "bronze-022"
+      ]
+    },
+    {
+      "phase": "Tuning & Customization",
+      "description": "Buy tuning parts and customize cars to unlock various bronze trophies.",
+      "trophyIds": [
+        "bronze-004",
+        "bronze-005",
+        "bronze-006",
+        "bronze-007",
+        "bronze-008",
+        "bronze-009",
+        "bronze-010"
+      ]
+    },
+    {
+      "phase": "Car Collection",
+      "description": "Purchase specific car types and expand your garage.",
+      "trophyIds": [
+        "bronze-011",
+        "bronze-012",
+        "bronze-013",
+        "bronze-014",
+        "bronze-015"
+      ]
+    },
+    {
+      "phase": "Speed Challenges",
+      "description": "Hit the speed milestones using the Tomahawk VGT on Special Stage Route X.",
+      "trophyIds": [
+        "bronze-041",
+        "bronze-042",
+        "silver-003"
+      ]
+    },
+    {
+      "phase": "Sport Mode Grind",
+      "description": "Complete 50 Sport Mode races and accumulate online mileage.",
+      "trophyIds": [
+        "bronze-043",
+        "bronze-044",
+        "bronze-040",
+        "silver-002"
+      ]
+    },
+    {
+      "phase": "Mileage & Miscellaneous",
+      "description": "Accumulate driving distance and complete miscellaneous race challenges.",
+      "trophyIds": [
+        "bronze-036",
+        "bronze-037",
+        "bronze-038",
+        "bronze-039",
+        "bronze-023",
+        "bronze-024"
+      ]
+    },
+    {
+      "phase": "Race Challenges",
+      "description": "Complete specific race condition trophies.",
+      "trophyIds": [
+        "bronze-026",
+        "bronze-028",
+        "bronze-029",
+        "bronze-030",
+        "bronze-031",
+        "bronze-032",
+        "bronze-033",
+        "bronze-034",
+        "bronze-035"
+      ]
+    },
+    {
+      "phase": "Photography",
+      "description": "Take photos for Scapes trophies.",
+      "trophyIds": [
+        "bronze-045",
+        "bronze-046",
+        "bronze-047"
+      ]
+    },
+    {
+      "phase": "Legendary Cars",
+      "description": "Save credits and wait for the three legendary 24-hour cars to appear in the Legend shop.",
+      "trophyIds": [
+        "silver-004"
+      ]
+    },
+    {
+      "phase": "Platinum",
+      "description": "With all trophies complete, the platinum is yours!",
+      "trophyIds": [
+        "platinum-001"
+      ]
+    }
+  ],
+  "coverImage": "https://media.rawg.io/media/games/3f6/3f6a04b856f23310d3c2f5be8c5963f7.jpg",
+  "rawgId": 452633,
+  "rawgSlug": "gran-turismo-7"
+}
