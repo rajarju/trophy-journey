@@ -1,7 +1,26 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
 import { getAllGames } from "@/lib/games";
 import { Badge } from "@/components/ui/Badge";
+import { siteConfig } from "@/lib/config";
+
+export const metadata: Metadata = {
+  title: "Game Library",
+  description: `Browse our collection of PlayStation trophy guides. Curated walkthroughs and checklists to help you achieve platinum.`,
+  openGraph: {
+    title: `Game Library | ${siteConfig.name}`,
+    description: `Browse our collection of PlayStation trophy guides. Curated walkthroughs and checklists to help you achieve platinum.`,
+    type: "website",
+    url: `${siteConfig.url}/games`,
+    siteName: siteConfig.openGraph.siteName,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Game Library | ${siteConfig.name}`,
+    description: `Browse our collection of PlayStation trophy guides. Curated walkthroughs and checklists to help you achieve platinum.`,
+  },
+};
 
 export default async function GamesPage() {
   const games = await getAllGames();

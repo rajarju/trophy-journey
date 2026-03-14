@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
 import { getGame, getGameSlugs } from "@/lib/games";
+import { siteConfig } from "@/lib/config";
 import { GameHeader } from "@/components/game/GameHeader";
 import { JourneyIntro } from "@/components/game/JourneyIntro";
 import { TrophyList } from "@/components/game/TrophyList";
@@ -12,6 +14,61 @@ interface GamePageProps {
 export async function generateStaticParams() {
   const slugs = getGameSlugs();
   return slugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: GamePageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const game = await getGame(slug);
+
+  if (!game) {
+    return {
+      title: "Game Not Found",
+    };
+  }
+
+  const trophyCount = game.trophies.length;
+  const platinumCount = game.trophies.filter((t) => t.type === "platinum").length;
+  const description = `Complete trophy guide for ${game.title}. ${trophyCount} trophies${platinumCount > 0 ? " including platinum" : ""}. ${game.metadata.difficulty}/10 difficulty, ${game.metadata.estimatedTime} to complete.`;
+
+  const coverImage = game.coverImage?.startsWith("http") ? game.coverImage : null;
+
+  return {
+    title: `${game.title} Trophy Guide`,
+    description,
+    keywords: [
+      `${game.title} trophies`,
+      `${game.title} trophy guide`,
+      `${game.title} platinum`,
+      `${game.title} 100%`,
+      `${game.platform} trophies`,
+      ...siteConfig.keywords.slice(0, 5),
+    ],
+    openGraph: {
+      title: `${game.title} Trophy Guide`,
+      description,
+      type: "article",
+      url: `${siteConfig.url}/games/${slug}`,
+      siteName: siteConfig.openGraph.siteName,
+      ...(coverImage && {
+        images: [
+          {
+            url: coverImage,
+            width: 1200,
+            height: 630,
+            alt: `${game.title} cover art`,
+          },
+        ],
+      }),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${game.title} Trophy Guide`,
+      description,
+      ...(coverImage && { images: [coverImage] }),
+    },
+  };
 }
 
 export default async function GamePage({ params }: GamePageProps) {
