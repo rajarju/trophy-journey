@@ -103,7 +103,7 @@ export default async function GamePage({ params }: GamePageProps) {
       >
         <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-4">
           <Link
-            href="/games"
+            href="/"
             className="text-text-secondary hover:text-text-primary transition-colors"
           >
             <BackIcon className="w-5 h-5" />

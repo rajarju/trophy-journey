@@ -30,7 +30,7 @@ export default function AboutPage() {
             </span>
           </Link>
           <Link
-            href="/games"
+            href="/"
             className="text-sm text-text-secondary hover:text-text-primary transition-colors"
           >
             Game Library
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
         <div className="mt-12 pt-8 border-t border-surface-border">
           <Link
-            href="/games"
+            href="/"
             className="inline-flex items-center gap-2 bg-accent text-white px-6 py-3 rounded-lg font-medium hover:bg-accent/90 transition-colors"
           >
             Browse Game Library

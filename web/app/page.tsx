@@ -1,45 +1,62 @@
 import Link from "next/link";
+import { Metadata } from "next";
+import { getAllGames } from "@/lib/games";
+import { GameLibrary } from "@/components/game/GameLibrary";
+import { siteConfig } from "@/lib/config";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Game Library",
+  description: `Browse our collection of PlayStation trophy guides. Curated walkthroughs and checklists to help you achieve platinum.`,
+  openGraph: {
+    title: `Game Library | ${siteConfig.name}`,
+    description: `Browse our collection of PlayStation trophy guides. Curated walkthroughs and checklists to help you achieve platinum.`,
+    type: "website",
+    url: siteConfig.url,
+    siteName: siteConfig.openGraph.siteName,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Game Library | ${siteConfig.name}`,
+    description: `Browse our collection of PlayStation trophy guides. Curated walkthroughs and checklists to help you achieve platinum.`,
+  },
+};
+
+export default async function HomePage() {
+  const games = await getAllGames();
+
   return (
-    <div className="min-h-screen bg-background flex flex-col">
-      {/* Header */}
-      <header className="border-b border-surface-border bg-surface">
-        <div className="max-w-3xl mx-auto px-4 py-3">
-          <span className="text-sm font-medium text-text-primary">
-            Trophy Journey
-          </span>
+    <div className="min-h-screen bg-background">
+      <header className="border-b border-surface-border bg-surface sticky top-0 z-10">
+        <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-lg bg-trophy-gold/20 flex items-center justify-center">
+              <TrophyIcon className="w-4 h-4 text-trophy-gold" />
+            </div>
+            <span className="font-semibold text-text-primary">
+              Trophy Journey
+            </span>
+          </div>
+          <Link
+            href="/about"
+            className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+          >
+            About
+          </Link>
         </div>
       </header>
 
-      {/* Hero */}
-      <main className="flex-1 flex items-center justify-center px-4">
-        <div className="text-center max-w-md">
-          <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-trophy-gold/20 flex items-center justify-center">
-            <TrophyIcon className="w-8 h-8 text-trophy-gold" />
-          </div>
-          <h1 className="text-3xl font-bold text-text-primary mb-3">
-            Trophy Journey
+      <main className="max-w-4xl mx-auto px-4 py-8">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-text-primary mb-2">
+            Game Library
           </h1>
-          <p className="text-text-secondary mb-8">
-            Your companion for PlayStation trophy hunting. Transform complex
-            guides into interactive, enjoyable journeys.
+          <p className="text-text-secondary">
+            Choose a game to start your trophy journey
           </p>
-          <Link
-            href="/games"
-            className="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent-hover text-white font-medium rounded-lg transition-colors"
-          >
-            Browse Games
-          </Link>
         </div>
-      </main>
 
-      {/* Footer */}
-      <footer className="border-t border-surface-border py-4">
-        <div className="max-w-3xl mx-auto px-4 text-center text-sm text-text-muted">
-          Built for trophy hunters
-        </div>
-      </footer>
+        <GameLibrary games={games} />
+      </main>
     </div>
   );
 }

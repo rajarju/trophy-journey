@@ -56,7 +56,7 @@ export const siteConfig = {
   // Navigation links
   nav: {
     main: [
-      { label: "Games", href: "/games" },
+      { label: "Games", href: "/" },
       { label: "About", href: "/about" },
     ],
   },
